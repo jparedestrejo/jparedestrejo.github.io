@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+}
+#container{
+  display:grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-areas: 
+        "header foto"
+        "main foto"
+        "footer footer";
+  width:960px;
+  background:#4EA699;
+  margin: auto;
+align-items: center;
+}
+header{
+  grid-area: header;
+  background: yellow;
+  height:200px;
+  font-family: "Chewy";
+  font-size:30px;
+  text-align:center;
+}
+h1{
+  line-height:200px;
+}
+#foto{
+  grid-area: foto;
+  font-size: 30px;
+  background: blue;
+  height:500px;
+}
+main{
+  grid-area: main;
+  background: red;
+  height:300px;
+}
+footer{
+  grid-area: footer;
+  background: orange;
+  height:100px;
+    align-items:center:
+}
+footer p{
+    font-family: Chewy, cursive;
+  font-size: 20px;
+  text-align:center;
+  padding:30px 200px 30px 200px
+}
