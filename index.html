@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Jaime Paredes Trejo in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="stylesheet" href="css/index.css"/>
     <title>Jaime Paredes</title>
 </head>
 <body>
     <div id="container">
-        <header><h1>Jaime Paredes Trejo</h1><img src="images/jaimeavatar.jpg" alt="">
+        <header><h1>Jaime Paredes Trejo</h1><img src="images/jaimeavatar.jpg" alt="Jaime Paredes photo">
         </header>
         <main>
           <section id="caja">
@@ -22,10 +23,31 @@
         </section>
         </main>
         <footer>
-         <p> © 2020 | Jaime J. Paredes Trejo | Lima - Perú | BYUI Learning Online </p>
+         <p> © 2020 | Jaime J. Paredes Trejo | Lima - Perú | <a href="https://www.byui.edu/online">BYUI Learning Online</a> </p>
 
-              <span> Last updated:  09/19/2020 18:01:02</span>
+              <span id="currentday"> Last updated:  09/19/2020 18:01:02</span>
                 </footer>
     </div>
+    <script>
+     const daynames=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Monday"];
+     const months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+     function currentHour(){
+     const todaysdate=new Date();
+     const dayName= daynames[todaysdate.getDay()];
+     const monthName= months[todaysdate.getMonth()];
+     const currentdate=dayName+ ", "+todaysdate.getDate() +" "+ monthName+", "+ todaysdate.getFullYear();
+     const hour=todaysdate.getHours();
+     const minutes=todaysdate.getMinutes();
+     const seconds=todaysdate.getSeconds();
+      if(seconds<10)
+     currenthour=hour+":"+minutes+":0"+seconds;
+    else
+    currenthour=hour+":"+minutes+":"+seconds;
+
+     document.getElementById("currentday").textContent="Last updated: "+currentdate+" - "+currenthour;
+     t=setTimeout("currentHour()",1000);
+}
+     currentHour();
+    </script>
 </body>
-</html>
+</html> 
