@@ -4,42 +4,57 @@
   margin:0px;
 }
 #container{
-  display:grid;
-  grid-template-columns: 4fr 1fr;
-  grid-template-areas: 
-        "header foto"
-        "main foto"
-        "footer footer";
-  width:960px;
-  background:#4EA699;
+ 
+  width:80%;
+
   margin: auto;
-align-items: center;
+
 }
 header{
-  grid-area: header;
-  background: yellow;
-  height:200px;
+ color:white;
+  background: brown;
+  height:150px;
   font-family: "Chewy";
   font-size:30px;
-  text-align:center;
+  padding-left:100px;
 }
 h1{
-  line-height:200px;
+  line-height:150px;
 }
-#foto{
-  grid-area: foto;
-  font-size: 30px;
-  background: blue;
-  height:500px;
+header img{
+  margin-top: -100px;
+  margin-right: 10px;
+  float: right;
+  width: 220px;
+  height: 250px;
+  border: 1px solid #ccc;
+
+  box-shadow: 5px 5px 5px #999;
+  box-sizing: border-box;
 }
 main{
-  grid-area: main;
-  background: red;
+margin-top:-100px;
+  background:beige;
   height:300px;
+  
+
+}
+#caja{
+margin-top: 10%;
+margin-left:20px;
+padding-top: 7%;
+}
+h2{
+  font-size: 35px;
+}
+#caja ul{
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 25px;
 }
 footer{
-  grid-area: footer;
-  background: orange;
+color:white;
+  background: brown;
   height:100px;
     align-items:center:
 }
@@ -47,5 +62,11 @@ footer p{
     font-family: Chewy, cursive;
   font-size: 20px;
   text-align:center;
-  padding:30px 200px 30px 200px
+  padding-top: 20px;
+}
+span{
+  display: block;
+  width:100%;
+  text-align:center;
+  font-size: 18px;
 }
