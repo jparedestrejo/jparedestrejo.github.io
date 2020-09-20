@@ -8,7 +8,7 @@ const currentdate=dayName+ ", "+todaysdate.getDate() +" "+ monthName+", "+ today
 const hour=todaysdate.getHours();
 const minutes=todaysdate.getMinutes();
 const seconds=todaysdate.getSeconds();
- if(seconds<10)
+ if(seconds<10) 
 currenthour=hour+":"+minutes+":0"+seconds;
 else
 currenthour=hour+":"+minutes+":"+seconds;
