@@ -10,11 +10,11 @@ const minutes=todaysdate.getMinutes();
 const seconds=todaysdate.getSeconds();
  if(seconds<10) 
 currenthour=hour+":"+minutes+":0"+seconds;
+else if(seconds<10) 
+currenthour=hour+":"+minutes+":0"+seconds;
+else if(minutes<10)
+currenthour=hour+":"+minutes+":0"+seconds;
 else
-currenthour=hour+":"+minutes+":"+seconds;
-if(minutes<10)
-currenthour=hour+":0"+minutes+":"+seconds;
- else
  currenthour=hour+":"+minutes+":"+seconds;
 document.getElementById("currentday").textContent="Last updated: "+currentdate+" - "+currenthour;
 t=setTimeout("currentHour()",1000);
