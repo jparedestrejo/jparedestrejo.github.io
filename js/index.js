@@ -10,7 +10,7 @@ const minutes=todaysdate.getMinutes();
 const seconds=todaysdate.getSeconds();
  if(seconds<10) 
 currenthour=hour+":"+minutes+":0"+seconds;
-else if(seconds<10) 
+else if(seconds<10)
 currenthour=hour+":"+minutes+":0"+seconds;
 else if(minutes<10)
 currenthour=hour+":"+minutes+":0"+seconds;
