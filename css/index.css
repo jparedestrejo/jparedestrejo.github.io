@@ -19,9 +19,6 @@ header{
   font-family: "Chewy";
   font-size:35px;
   padding-left: 70px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-shadow: 4px 4px 4px #aaa;
 }
 #foto{
@@ -41,7 +38,7 @@ main{
   padding: 30px 35px 30px 20px;
 
 }
-#foto,main{
+#foto,main,header{
      display: flex;
   flex-direction: column;
   justify-content: center;
