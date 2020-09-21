@@ -27,7 +27,7 @@ header{
 #foto{
   grid-column: 2/span 1;
   grid-row: 2/span 3;
-  z-index: 2;
+  z-index: 3;
   border: 1px solid #ccc;
   box-shadow: 5px 5px 5px #999;
   box-sizing: border-box;
