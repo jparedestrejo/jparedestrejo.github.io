@@ -38,7 +38,7 @@ main{
   padding: 30px 35px 30px 20px;
 
 }
-#foto,main{
+#foto,main,header{
      display: flex;
   flex-direction: column;
   justify-content: center;
