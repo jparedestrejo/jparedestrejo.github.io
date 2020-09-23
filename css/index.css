@@ -40,7 +40,7 @@ main{
 
 }
 #foto,main,header{ 
-     display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }

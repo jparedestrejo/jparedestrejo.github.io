@@ -21,4 +21,5 @@ function check0(i) {
     }
     return i;
 }
+
 currentHour();
