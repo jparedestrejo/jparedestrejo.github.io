@@ -67,7 +67,6 @@
     margin-top: 0.5rem;
   }
 }
-
 @media screen and  (max-width: 800px) and (min-width: 420px){
   #foto{
     grid-column: 1/-1;
