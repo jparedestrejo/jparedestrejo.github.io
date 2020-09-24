@@ -40,7 +40,6 @@
   }
 
 }
-
 @media screen and  (max-width: 419px) and (min-width: 361px){
   #foto{
     grid-column: 1/-1;
