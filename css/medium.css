@@ -22,6 +22,81 @@
   }
 
   main h2{
+    font-size: 1.55rem;
+  }
+  main ul li{
+    margin-top: 0.2rem;
+      font-size: 1.3rem;
+  }
+  footer{
+    height: 150px;
+  }
+  footer p{
+    font-size: 1.2rem;
+  }
+  footer span{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media screen and  (max-width: 419px) and (min-width: 361px){
+  #foto{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+    background: brown;
+    text-align: center;
+  }
+  #foto img{
+    width: 40%;
+    height: 90%;
+    margin: auto;
+  }
+  header{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+  }
+
+  main h2{
+    font-size: 2rem;
+  }
+  footer{
+    height: 150px;
+  }
+  footer span{
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and  (max-width: 800px) and (min-width: 420px){
+  #foto{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+    background: rgb(42, 106, 165);
+    text-align: center;
+  }
+  #foto img{
+    width: 40%;
+    height: 90%;
+    margin: auto;
+  }
+  header{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+  }
+
+  main h2{
     font-size: 2rem;
   }
   footer{
