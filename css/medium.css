@@ -1,9 +1,7 @@
 @media screen and (max-width: 360px){
-
   #foto{
     grid-column: 1/-1;
     grid-row: 1/2;
-
     background: brown;
     text-align: center;
   }
