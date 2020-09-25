@@ -3,7 +3,6 @@
   padding:0px;
   margin:0px;
 }
-
 #container{
   display: grid;
   grid-template-columns: 4fr 1.2fr;
