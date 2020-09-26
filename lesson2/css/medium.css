@@ -1,0 +1,132 @@
+@media screen and (max-width: 800px) and (min-width: 361px){
+  header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+    height:10rem;
+  }
+main{
+  grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.mobil{
+
+  max-width: 95%;
+  max-height: 100%;  
+  border: 2px brown solid;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+}
+.mobil img{
+  width: 290px;
+  height: 550px;
+ }
+ .mobil p{
+   height: 3.5rem;
+ }
+ .mobil h1{
+   height: 2rem;
+ }
+ .mobil h3{
+   height: 3.5rem;
+ }
+ .mobil a{
+   display: block;
+   height: 2rem;
+ }
+ #s1{
+   grid-area: "s1";
+ 
+ }
+ #s2{
+   grid-area: "s2";
+ }
+ #s3{
+   grid-area: "s3";
+ }
+ footer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 100px;
+  }
+  footer p{
+    font-size: 1.2rem;
+  }
+  footer span{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 360px){
+  header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+  }
+main{
+  grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.mobil{
+
+  max-width: 95%;
+  max-height: 100%;  
+  border: 2px brown solid;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+}
+.mobil img{
+  width: 290px;
+  height: 550px;
+ }
+ .mobil p{
+   height: 3.5rem;
+ }
+ .mobil h1{
+   height: 2rem;
+ }
+ .mobil h3{
+   height: 3.5rem;
+ }
+ .mobil a{
+   display: block;
+   height: 2rem;
+ }
+ #s1{
+   grid-area: "s1";
+ 
+ }
+ #s2{
+   grid-area: "s2";
+ }
+ #s3{
+   grid-area: "s3";
+ }
+ 
+
+  footer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 150px;
+  }
+  footer p{
+    font-size: 1.2rem;
+  }
+  footer span{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+}

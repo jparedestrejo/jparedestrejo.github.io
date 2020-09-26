@@ -1,0 +1,101 @@
+
+*{
+  padding:0px;
+  margin:0px;
+}
+#container{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+
+  max-width: 960px;
+  margin: auto;
+}
+header{
+  grid-row: 1/span 1;
+  grid-column: 1/span 3;
+  color:white;
+  background: brown;
+  height:10rem;
+  font-family: "Architects Daughter", sans-serif;
+  font-size:2rem;
+  text-align: center;
+  text-shadow: 4px 4px 4px #999;
+}
+main{
+  grid-row: 2/3;
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  
+ text-align: center;
+  background:beige;
+
+}
+.mobil{
+  max-width: 95%;
+  max-height: 95%;  
+  border: 2px brown solid;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+}
+
+.mobil img{
+ width: 270px;
+ height: 70%;
+ 
+}
+.mobil p{
+  height: 1rem;
+}
+.mobil h1{
+  height: 2rem;
+}
+.mobil h3{
+  height: 3.5rem;
+}
+.mobil a{
+  display: block;
+  height: 2rem;
+}
+#s1{
+  grid-area: "s1";
+
+}
+#s2{
+  grid-area: "s2";
+}
+#s3{
+  grid-area: "s3";
+}
+
+
+header,footer{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer{
+grid-row: 3/4;
+  grid-column: 1/4;
+color:white;
+  background: brown;
+  height:80px;
+}
+footer p{
+  font-family:"Architects Daughter", sans-serif;
+  font-size: 1.5rem;
+  text-align:center;
+}
+footer a{
+  color:white;
+}
+footer span{
+  display: block;
+  width:100%;
+  text-align:center;
+  font-family:"Rubik", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
