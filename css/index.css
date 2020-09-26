@@ -77,7 +77,7 @@ footer p{
 footer a{
   color:white;
 }
-footer span{
+footer #currentday{
   display: block;
   width:100%;
   text-align:center;
