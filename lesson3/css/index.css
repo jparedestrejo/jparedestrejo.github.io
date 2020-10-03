@@ -1,0 +1,130 @@
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #0000FF;
+  --secondary-color: #64FAFA;
+  --accent1-color: #FFFFFF;
+  --accent2-color: #FF9B00;
+  --accent3-color:#8AA4AA;
+/* change the values below to your chosen font(s) */
+  --heading-font: "Roboto", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
+}
+.primary{
+  background-color: var(--primary-color);
+}
+.secondary{
+  background-color: var(--secondary-color);
+}
+.accent1{
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+#container{
+
+  max-width: 960px;
+  margin: auto;
+}
+header{
+  color:var(--secondary-color);
+  background: var(--primary-color);
+  height:10rem;
+  font-family: var(--heading-font);
+  font-size:2rem;
+  text-align: center;
+  text-shadow: 4px 4px 5px var(--accent1-color);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--heading-font);
+  color:var(--primary-color) ;
+}
+p,span,a{
+  font-family: var(--paragraph-font);
+}
+nav{
+  background-color: var(--accent3-color);
+}
+nav ul{
+  list-style: none; /* removes the bullets! */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+  margin: 0px;  
+  justify-items: center;       
+  }
+  nav a{
+  color: #386641;
+  font-family:"Open Sans", Verdana, sans-serif;
+  font-size:1.7em;
+  color: var(--accent1-color);
+  text-decoration:none;  
+  } 
+  nav a:hover{
+  color: var(--accent3-color);
+  background:var(--accent1-color);
+  }
+  .active{
+    color: #white;
+    background: #4EA699;
+    }
+main{
+ 
+  background: var(--accent1-color);
+font-size: 1.1em;
+padding: 0.5em;
+margin-top: 1em;
+}
+main p{
+  font-family: var(--paragraph-font);
+  padding-top: 0.4em;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+}
+main li{
+  margin-left: 1.5em;
+  font-size: 1.1em;
+  font-family: var(--paragraph-font);
+}
+li span{
+  font-weight: bold;
+}
+.colors{
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  width: 80%;
+}
+header,footer{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer{
+color: var(--accent1-color);
+  background: var(--accent3-color);
+  height:120px;
+}
+footer p{
+  font-family:var(--paragraph-font);
+  font-size: 1.5rem;
+  text-align:center;
+}
+footer a{
+  color: var(--accent1-color);
+}
+footer span{
+  display: block;
+  width:100%;
+  text-align:center;
+  font-family:var(--paragraph-font);
+  font-size: 1.2rem;
+  color: var(--accent1-color);
+}
