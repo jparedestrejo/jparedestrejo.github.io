@@ -1,0 +1,145 @@
+@media screen and (max-width: 800px) and (min-width: 361px){
+  header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+    height:10rem;
+  }
+  nav ul{
+    list-style: none; /* removes the bullets! */
+    display: grid;
+    grid-template-columns:  1fr; 
+    margin: 0px;  
+    justify-items: center;       
+    }
+    .colors{
+      display: grid;
+      grid-template-columns: repeat(3,auto);
+      grid-template-areas: "p1 s1 a1"
+                            "p1b s1b ac1b"
+                            "a2 a3 ."
+                            "ac2b ac3b .";
+      width: 90%;
+    }
+    .primary{
+      grid-area: p1;
+    }
+    .pri{
+      grid-area: p1b;
+    }
+    .secondary{
+      grid-area: s1;
+    }
+    .sec{
+      grid-area: s1b;
+    }
+    .accent1{
+      grid-area: a1;
+    }
+    .ac1{
+      grid-area: ac1b;
+    }
+    .accent2{
+      grid-area: a2;
+    }
+    .ac2{
+      grid-area: ac2b;
+    }
+    .accent3{
+      grid-area: a3;
+    }
+    .ac3{
+      grid-area: ac3b;
+    }
+
+    footer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 150px;
+  }
+  footer p{
+    font-size: 1.2rem;
+  }
+  footer span{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 360px){
+  header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+  }
+  nav ul{
+    list-style: none; /* removes the bullets! */
+    display: grid;
+    grid-template-columns:  1fr; 
+    margin: 0px;  
+    justify-items: center;  
+    border: white solid 1px;     
+    }
+    .colors{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "p1"
+                            "p1b"
+                            "s1"
+                            "s1b"
+                            "a1"
+                            "ac1b"
+                            "a2"
+                            "ac2b"
+                            "a3"
+                            "ac3b";
+      width: 90%;
+    }
+    .primary{
+      grid-area: p1;
+    }
+    .pri{
+      grid-area: p1b;
+    }
+    .secondary{
+      grid-area: s1;
+    }
+    .sec{
+      grid-area: s1b;
+    }
+    .accent1{
+      grid-area: a1;
+    }
+    .ac1{
+      grid-area: ac1b;
+    }
+    .accent2{
+      grid-area: a2;
+    }
+    .ac2{
+      grid-area: ac2b;
+    }
+    .accent3{
+      grid-area: a3;
+    }
+    .ac3{
+      grid-area: ac3b;
+    }
+
+  footer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 150px;
+  }
+  footer p{
+    font-size: 1.2rem;
+  }
+  footer span{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+}
