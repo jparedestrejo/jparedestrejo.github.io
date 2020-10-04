@@ -16,6 +16,7 @@ seconds = check0(seconds);
 document.getElementById("currentday").textContent="Last updated: "+currentdate+" - "+currenthour;
 t=setTimeout("currentHour()",1000);
 }
+document.getElementById("copyright-year").innerText = new Date().getFullYear();
 function check0(i) {
     if (i < 10) {
         i = "0" + i;
