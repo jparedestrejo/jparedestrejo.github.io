@@ -43,6 +43,9 @@ header{
   text-align: center;
   text-shadow: 4px 4px 5px var(--accent1-color);
 }
+header a{
+  color: var(--secondary-color);
+}
 h2,h3,h4,h5,h6{
   font-family: var(--heading-font);
   color:var(--primary-color) ;
