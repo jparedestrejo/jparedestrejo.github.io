@@ -72,7 +72,7 @@ nav ul{
   background:var(--accent1-color);
   }
   .active{
-    color: #white;
+    color: white;
     background: #4EA699;
     }
 main{
