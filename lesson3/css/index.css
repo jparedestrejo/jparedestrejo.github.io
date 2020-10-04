@@ -43,9 +43,12 @@ header{
   text-align: center;
   text-shadow: 4px 4px 5px var(--accent1-color);
 }
-h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
   font-family: var(--heading-font);
   color:var(--primary-color) ;
+}
+h1{
+  color: var(--secondary-color);
 }
 p,span,a{
   font-family: var(--paragraph-font);
