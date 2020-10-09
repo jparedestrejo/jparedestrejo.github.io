@@ -13,9 +13,10 @@ hour = check0(hour);
 minutes = check0(minutes);
 seconds = check0(seconds);
  currenthour=hour+":"+minutes+":"+seconds;
-document.getElementById("currentday").textContent="Last updated: "+currentdate+" - "+currenthour;
+document.getElementById("currentday").textContent="Current Day: "+currentdate+" - "+currenthour;
 t=setTimeout("currentHour()",1000);
 }
+
 document.getElementById("copyright-year").innerText = new Date().getFullYear();
 function check0(i) {
     if (i < 10) {
