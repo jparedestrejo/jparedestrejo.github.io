@@ -1,11 +1,12 @@
 var daynames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Monday"];
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var t;
+var currentdate,currenthour;
 function currentHour(){
 var todaysdate = new Date();
-var dayName = daynames[todaysdate.getDay()];
+var dayName = daynames[todaysdate.getDay()-1];
 var monthName = months[todaysdate.getMonth()];
-var currentdate = dayName+ ", "+todaysdate.getDate() +" "+ monthName+", "+ todaysdate.getFullYear();
+currentdate = dayName+ ", "+todaysdate.getDate() +" "+ monthName+", "+ todaysdate.getFullYear();
 var hour = todaysdate.getHours();
 var minutes = todaysdate.getMinutes();
 var seconds = todaysdate.getSeconds();
@@ -24,3 +25,4 @@ function check0(i) {
     return i;
 }
 currentHour();
+document.getElementById("lastupdated").textContent="Last Updated: "+currentdate+" - "+currenthour;
