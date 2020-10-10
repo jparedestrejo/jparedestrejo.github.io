@@ -1,9 +1,9 @@
 @media only screen and (max-width:32.7em) {
 
-    nav ul li a:hover {
-        color: white;
-        background-color: black;
-    }
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
 header section h1{
   font-size: 1.9em;
 }
@@ -11,24 +11,24 @@ header section h1{
 header .phrase{
   font-size: 1.7em;
 }
-    footer div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.1em;
-        height: 150px;
-        text-align: center;
-    }
-    .menu li {
-		display: none;
-    }
-    .menu li:first-child {
-		display: block;
-    }
-    .responsive li{
-        display: block;
-    }
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.1em;
+    height: 150px;
+    text-align: center;
+}
+.menu li {
+display: none;
+}
+.menu li:first-child {
+display: block;
+}
+.responsive li{
+    display: block;
+}
 
 
 }
