@@ -42,41 +42,50 @@ header p{
 }
 nav .ham {display: none;}
         
-    nav .menu {
-      display: block;
-      background: var(--secondary-color);
-    }
-        
-    nav ul {text-align: center;}
-        
-    nav ul li{
-        display:inline;
-   }
-        
-    nav ul li a {
-        width: 5.5em;
-        padding: 1rem 1rem;
-        display: inline-block;
-        font-size: 1.5em;
-        text-decoration: none;
-    }
-    main section{
-      width: 80%;
-      margin: auto;
-      padding-top: 1.5em;
-    }
-    main section h2{
-      text-align: center;
-      font-size: 2em;
-    }
-    main section div{
-      background: var(--accent3-color);
-      border: dashed 2px var(--accent2-color);
-      color: var(--accent1-color);
-      padding:0.5em;
-      margin: 0.5em;
-      font-size: 1.5em;
-    }
+nav .menu {
+  display: block;
+  background: var(--secondary-color);
+}
+    
+nav ul {text-align: center;}
+    
+nav ul li{
+    display:inline;
+}
+    
+nav ul li a {
+    width: 5.5em;
+    padding: 1rem 1rem;
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.active {
+  background: var(--primary-color);
+  color:var(--secondary-color);
+}
+nav .menu a:hover {
+  background: var(--primary-color);
+  color:var(--secondary-color);
+}
+
+main section{
+  width: 80%;
+  margin: auto;
+  padding-top: 1.5em;
+}
+main section h2{
+  text-align: center;
+  font-size: 2em;
+}
+main section div{
+  background: var(--accent3-color);
+  border: dashed 2px var(--accent2-color);
+  color: var(--accent1-color);
+  padding:0.5em;
+  margin: 0.5em;
+  font-size: 1.5em;
+}
 footer{
   display: flex;
 justify-content: center;

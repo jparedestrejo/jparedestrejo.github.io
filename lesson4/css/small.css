@@ -4,9 +4,10 @@
         color: white;
         background-color: black;
     }
-header{
-  font-size: 0.6em;
+header section h1{
+  font-size: 1.9em;
 }
+
 header .phrase{
   font-size: 1.7em;
 }

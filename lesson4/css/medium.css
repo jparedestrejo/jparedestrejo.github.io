@@ -1,19 +1,14 @@
-@media only screen and (max-width: 720px) {
-  header h1{
-    font-family: var(--heading-font);
-    margin: 0;
-    font-size:1.3em;
-    color:var(--secondary-color);
+@media only screen and (max-width: 62.5em) {
+  header{
+    font-size: 0.7em;
+  }
+  header .phrase{
+    font-size: 1.6em;
   }
   header img{
     width:100%;
   }
-  header p{
-    color:var(--accent2-color);
-    font-size:0.9em;
-    padding-left: 1em;
-  }
-    .menu li {
+     .menu li {
 		display: none;
     }
     .menu .ham{
