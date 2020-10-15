@@ -98,3 +98,6 @@ align-items: center;
   width: 85%;
   margin: auto;
 }
+footer a{
+  color: var(--accent1-color);
+}
