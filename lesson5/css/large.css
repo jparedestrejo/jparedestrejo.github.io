@@ -10,7 +10,6 @@
   --heading-font: "Roboto", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
 }
-
 *{
   padding:0px;
   margin:0px;
@@ -150,17 +149,19 @@ nav .menu a:hover {
 
 .weather-forecast img{
   height: 100px;
-}
+ }
 #article_box{
   box-sizing: border-box;
   padding: 1.8em;
   margin: 10px auto;
   width: 75%;
+  height: 100%;
   border: 1px solid var(--primary-color);
   background-color: var(--accent3-color);
 }
 #article_box img{
-  float: right;
+ 
+  float:right;
   margin-left: 1.5em;
   margin-top: 0.5em;
   box-shadow: 5px 5px 18px blue,-5px -5px 18px blue;
@@ -179,7 +180,9 @@ nav .menu a:hover {
 }
 .contac{
   width: 10%;
+
 }
+
 footer{
   display: flex;
 justify-content: center;
