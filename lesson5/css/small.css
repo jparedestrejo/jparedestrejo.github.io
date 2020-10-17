@@ -1,5 +1,12 @@
-@media only screen and (max-width:22.5em) {
+@media only screen and (max-width:32.5em) {
 
+  .pancakealert{
+    display: none;
+
+    padding:0.5em;
+    height: 3em;
+
+  }
 header{
   display: flex;
 justify-content:flex-start;
@@ -59,8 +66,7 @@ width: 100%;
   border: 1px solid var(--accent3-color);
   box-shadow: 5px 5px 5px var(--accent3-color);
   color: var(--accent1-color);
-  opacity: 60%;
-  font-weight: bolder;
+  font-weight: bold;
 }
 #data{
   display: flex;
@@ -101,13 +107,13 @@ box-sizing: border-box;
 
 #info{
   padding: 0px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 .contac{
-  width: 5%;
+  width: 10%;
 }
 .social{
-  width: 5%;
+  width: 10%;
 
 }
 footer div{

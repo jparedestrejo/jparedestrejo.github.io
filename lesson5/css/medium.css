@@ -1,4 +1,4 @@
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 48.7em) {
   header{
     font-size: 0.7em;
   }
@@ -25,14 +25,48 @@
       color: white;
       background-color: black;
   }
-  footer div{
+  #forecast_box{
+display: none;
+  }
+  #contact-box{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 0.8em;
-    height: 150px;
-    text-align: center;
-}
+align-items: center;
+    padding: 1.8em;
+    margin: 10px auto 0px;
+    width: 75%;
+    background-color: var(--accent3-color);
+  }
+  #map iframe{
+    width: 100%;
+   }
+  #info{
+    padding: 60px;
+    font-size: 1.3em;
+    box-sizing: border-box;
+  }
+  .contac{
+    width: 10%;
+  
+  }
+  
+
+  footer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family:var(--paragraph-font);
+    font-size: 1.2em;
+    color: var(--accent1-color);
+    background: var(--primary-color);
+    height:4em;
+ text-align: center;
+  }
+  footer div{text-align: center;
+    width: 100%;
+  }
+  footer a{
+    color: var(--accent1-color);
+  }
 
 }
