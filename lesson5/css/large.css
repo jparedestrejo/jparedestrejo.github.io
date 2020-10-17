@@ -186,6 +186,7 @@ footer{
   display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
   font-family:var(--paragraph-font);
   font-size: 1.2em;
   color: var(--accent1-color);
