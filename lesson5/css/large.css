@@ -165,6 +165,12 @@ nav .menu a:hover {
   margin-top: 0.5em;
   box-shadow: 5px 5px 18px blue,-5px -5px 18px blue;
 }
+#map{
+  background-image: url(../images/map.jpg);
+  width: 500px;
+  height: 390px;
+ }
+
 #contact-box{
   display: flex;
   padding: 1.8em;

@@ -37,8 +37,8 @@ align-items: center;
     width: 75%;
     background-color: var(--accent3-color);
   }
-  #map iframe{
-    width: 100%;
+  #map{
+   display: none;
    }
   #info{
     padding: 60px;
