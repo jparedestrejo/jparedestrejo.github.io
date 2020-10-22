@@ -167,6 +167,7 @@ nav .menu a:hover {
 }
 #map{
   background-image: url(../images/map.jpg);
+  background-size: cover;
   width: 500px;
   height: 390px;
  }
