@@ -1,4 +1,4 @@
-@media only screen and (max-width:32.5em) {
+@media only screen and (max-width:31.25em) {/*max 500px*/
 
   .pancakealert{
     display: none;
@@ -26,7 +26,7 @@ header section h1{
 
 .menu{
   position:absolute;
-  top: 110px;
+  top: 60px;
   right: 10px;
   z-index: 1;
 }

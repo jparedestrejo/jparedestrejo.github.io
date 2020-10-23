@@ -64,10 +64,10 @@ nav ul li{
 }
     
 nav ul li a {
-    width: 6.5em;
+    width: 13%;
     padding: 1rem 1rem;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.7rem;
     text-decoration: none;
 }
 .active {
@@ -93,6 +93,10 @@ nav .menu a:hover {
   position: relative;
   width: 80%;
   margin: auto;
+  border: 1px red double;
+}
+.hero_photos img{
+  width: 100%;
 }
 /*FORECAST BOX*/
 #weather_summary{
