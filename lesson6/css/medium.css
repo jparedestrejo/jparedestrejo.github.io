@@ -41,8 +41,8 @@ align-items: center;
    display: none;
    }
   #info{
-    padding: 60px;
-    font-size: 1.3em;
+    padding: 10px;
+    font-size: 1.1em;
     box-sizing: border-box;
   }
   .contac{
