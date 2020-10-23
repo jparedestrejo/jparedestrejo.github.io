@@ -53,8 +53,8 @@ nav ul {
 
   font-size: 1em;
 }
-#hero_box{
-width: 100%;
+#hero_box img{
+position: relative;
 }
 
 #weather_summary{

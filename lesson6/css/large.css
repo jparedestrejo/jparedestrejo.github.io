@@ -88,13 +88,10 @@ nav .menu a:hover {
   font-size: 1.3em;
 }
 /*HERO BOX*/
-#hero_box img{
-  width: 100%;
 
-}
 #hero_box{
   position: relative;
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 /*FORECAST BOX*/
