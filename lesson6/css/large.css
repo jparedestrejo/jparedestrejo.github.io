@@ -93,7 +93,6 @@ nav .menu a:hover {
   position: relative;
   width: 80%;
   margin: auto;
-  border: 1px red double;
 }
 .hero_photos img{
   width: 100%;
@@ -178,23 +177,16 @@ nav .menu a:hover {
   box-shadow: 5px 5px 18px blue,-5px -5px 18px blue;
 }
 
-#map{
-  background-image: url(../images/map.jpg);
-  background-size: cover;
-  width: 500px;
-  height: 390px;
- }
-
 #contact-box{
   display: flex;
-  padding: 1.8em;
+  padding: 1em;
   margin: 10px auto 0px;
   width: 75%;
   background-color: var(--accent3-color);
 }
 #info{
-  padding: 60px;
-  font-size: 1.3em;
+  margin: auto;
+  font-size: 1em;
   box-sizing: border-box;
 }
 .contac{

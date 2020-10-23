@@ -111,13 +111,13 @@ box-sizing: border-box;
 
 #info{
   padding: 0px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 .contac{
   width: 10%;
 }
 .social{
-  width: 10%;
+  width: 20%;
 
 }
 footer div{
