@@ -45,7 +45,13 @@
     <main> 
             <div id="town_box"><h2>Preston Idaho</h2></div>
             <div id="hero_box">
-                <img src="images/banner.jpg" alt="hero box image">
+                <picture class="hero_photos">
+                    <source media="(max-width:400px)" srcset="images/small.jpg">
+                    <source media="(max-width:799px)" srcset="images/medium.jpg">    
+                    <source media="(min-width:800px)" srcset="images/large.jpg">
+                    <img src="images/hero_img.jpg" alt="hero box image">   
+                </picture>
+                
                 <section id="weather_summary">
                     <h2>Weather Summary</h2>
                     <div id="data">
@@ -99,10 +105,12 @@
             </div>
             </div>
             <div id="article_box">
-                <img src="images/article.jpg" alt="article image">
+               
+                <figure class="myphoto">
+                    <img src="images/article.jpg" alt="article image">
+                </figure>
                 <h2>Founders day Fresco</h2>
-                <h3>By someone</h3>
-                
+                <h3>By someone</h3>                
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam repellat neque molestiae natus autem dolorem? Est consequatur unde atque eius, molestias perspiciatis cupiditate voluptates fuga qui, nemo architecto iure non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, minus corrupti. Tempora, sint suscipit eum rem vitae, porro enim, molestias culpa nesciunt sapiente rerum eius dolores harum dolorem velit corporis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem cupiditate qui quos rem veniam vitae, magnam maxime facilis ea tempora laborum, dolores id culpa. Ipsa maiores nesciunt quaerat alias quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio alias necessitatibus. Animi cumque pariatur laudantium illum? Numquam omnis, dicta illum cum sed eum tempora molestias necessitatibus quis aliquid excepturi...<a href="">continue to full article</a>     </p>
                 
             </div>
