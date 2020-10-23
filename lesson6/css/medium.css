@@ -25,17 +25,40 @@
       color: white;
       background-color: black;
   }
+  #hero_box{
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
   #forecast_box{
 display: none;
   }
+  #article_box{
+    
+    box-sizing: border-box;
+  margin: 0;
+  
+    width: 100%;
+  
+  }
+  #article_box figure.myphoto{
+    text-align: center;
+    width: 100%;
+margin-bottom: 3%;
+
+  
+  }
+  
+
   #contact-box{
     display: flex;
     justify-content: center;
 align-items: center;
     padding: 1.8em;
     margin: 10px auto 0px;
-    width: 75%;
+    width: 100%;
     background-color: var(--accent3-color);
+    box-sizing: border-box;
   }
   #map{
    display: none;

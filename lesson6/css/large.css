@@ -91,7 +91,7 @@ nav .menu a:hover {
 
 #hero_box{
   position: relative;
-  width: 80%;
+  width: 77%;
   margin: auto;
 }
 .hero_photos img{
@@ -125,7 +125,7 @@ nav .menu a:hover {
 }
 #forecast_box{
   margin: 10px auto;
-  width: 65%;
+  width: 77%;
   height: 13em;
   text-align: center;
 }
@@ -160,7 +160,8 @@ nav .menu a:hover {
   box-sizing: border-box;
   padding: 1.8em;
   margin: 10px auto;
-  width: 75%;
+  font-size: 1.3em;
+  width: 77%;
   height: 100%;
   border: 1px solid var(--primary-color);
   background-color: var(--accent3-color);
@@ -178,9 +179,7 @@ nav .menu a:hover {
 
 #contact-box{
   display: flex;
-  padding: 1em;
-  margin: 10px auto 0px;
-  width: 75%;
+  padding: 1em 15em; 
   background-color: var(--accent3-color);
 }
 #info{
