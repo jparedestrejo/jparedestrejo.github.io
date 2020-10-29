@@ -2,12 +2,9 @@
 main{
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
 }
-/* img{
 
-    filter: blur(0em);
-    transition: filter 1s;
-} */
 img[data-src] {
     filter: blur(0.2em);
   }
