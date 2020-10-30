@@ -41,72 +41,18 @@ nav ul li a:hover {
 nav ul {
   text-align: right;
 }
-#town_box{
-  
-  margin: 0.5em;
-
-  font-size: 1em;
+.container {
+  margin: 1rem auto; display:grid; 
+  grid-template-columns: 1fr;
+  max-width: 500px;
+  grid-gap: 5px;
 }
-#hero_box{
-width: 100%;
-margin: 0%;
-padding: 0%;
-}
-
-#weather_summary{
-  position: relative;
-  top: 0px;
-  left: 0px;
-text-align: center;
-}
-#data{
-  
-  width: 50%;
-  margin:auto;
+#title{
+  grid-column: 1/2;
+  margin: 0px;
+  font-family: var(--heading-font);
 }
 
-#forecast_box{
- display: none;
-}
-
-
-#article_box{
-  font-size: 1.1em;
-  box-sizing: border-box;
-margin: 0;
-padding: 3px;
-  width: 100%;
-
-}
-#article_box figure.myphoto{
-  width: 100%;
-  margin:0;
-  padding: 0px;
-
-}
-
-#contact-box{
-display: flex;
-flex-direction: column-reverse;
-  padding: 1.5em;
-width: 100%;
-box-sizing: border-box;
-}
-#map{
- display: none;
-}
-
-#info{
-  padding: 0px;
-  font-size: 1em;
-}
-.contac{
-  width: 10%;
-}
-.social{
-  width: 20%;
-
-}
 footer div{
   display: flex;
   flex-direction: column;
