@@ -49,8 +49,12 @@ nav ul {
 }
 #title{
   grid-column: 1/2;
-  margin: 0px;
+  margin-left: 10px;
   font-family: var(--heading-font);
+}
+figure{
+  width: 95%;
+  margin: auto;
 }
 
 footer div{

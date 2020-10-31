@@ -85,7 +85,7 @@ nav .menu a:hover {
 }
 figure:hover{box-shadow: 0 0 30px #333;}
 figure{border: 1px gray solid;}
-img { 
+figure img { 
   width: 100%; height: auto; padding: 0px;
   filter: blur(0em);
   transition: filter 0.5s;
