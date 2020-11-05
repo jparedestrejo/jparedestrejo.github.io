@@ -76,6 +76,9 @@ tbody tr:nth-child(odd){
 thead tr:last-child,tbody tr:nth-child(even),tbody tr:nth-child(odd){
     height: 2em;
 }
+tbody tr:nth-child(5) td:first-child{
+    font-style: italic;
+} 
 tfoot tr{
     height: 2.3em;
     font-size: 0.7em;
