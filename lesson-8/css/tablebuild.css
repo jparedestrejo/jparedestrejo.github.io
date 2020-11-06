@@ -8,7 +8,6 @@
     --table-row-even-color: #e7ffed;
     --table-row-odd-color: #e7f0ed;
 
-   /* e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2*/
   /* change the values below to your chosen font(s) */
     --heading-font: "Ubuntu", sans-serif;
     --paragraph-font: "Ubuntu", sans-serif;
