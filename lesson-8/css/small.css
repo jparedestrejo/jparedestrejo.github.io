@@ -80,6 +80,12 @@ footer div{
 footer{
   height: 100%;
 }
-
+/*Thank you page*/
+#thankyoutitle{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1em;
+  padding: 1em;
+}
 
 }

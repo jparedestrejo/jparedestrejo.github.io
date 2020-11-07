@@ -56,5 +56,11 @@
   footer a{
     color: var(--accent1-color);
   }
+  #thankyoutitle{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1em;
+    padding: 1em;
+  }
 
 }
