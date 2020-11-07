@@ -39,8 +39,8 @@
             </ul>
     </nav>
     <main> 
-        <h1 id="stormtitle">Storm Reports</h1>
-        <form action="thankyou.html" method="GET">
+        <h2 id="stormtitle">Storm Reports</h2>
+        <form action="thankyou.html" method="POST">
             <fieldset>
                 <legend>User Information</legend>
                 <label class="top" for="fullname">Full Name:
@@ -51,11 +51,11 @@
                     <input id="email" type="email" name="txtEmail" 
                     required placeholder="example@mail.com">
                 </label>
-                <label class="top" for="phone">Phone Number:
+                <label class="top" for="phone">Phone Number: <span class="rqd">*</span>
                     <input id="phone" type="tel" name="txtPhone" 
                     required>
                 </label>
-                <label class="top" for="zipcode">Zip Code:
+                <label class="top" for="zipcode">Zip Code:<span class="rqd">*</span>
                     <input id="zipcode" type="number" name="txtZipCode" 
                     required>  
                 </label>
@@ -98,21 +98,21 @@
                 </label>
                 <label class="top" for="stormregion">Storm Region:
                     <select name="cboStormRegion" id="stormregion">
-                        <option disabled value="">--Please Select Regiion--</option>
+                        <option disabled value="">--Please Select Region--&#9662;</option>
                         <option value="preston">Preston</option>
-                        <option value="soda spring">Soda Spring</option>
-                        <option value="fish haven">Fish Haven</option>
+                        <option value="sodaspring">Soda Spring</option>
+                        <option value="fishhaven">Fish Haven</option>
                     </select>
                 </label>
             </fieldset>
             <fieldset>
                 <legend>User in-danger level</legend>                    
-                    <label class="sbs" for="time1"><input type="radio" id="time1" name="time" value="8" checked> Yes</label>
-                    <label class="sbs" for="time2"><label for="time3"><input type="radio" id="time2" name="time" value="9"> Maybe </label>
-                    <label class="sbs" for="time3"><input type="radio" id="time3" name="time" value="10"> No</label>
+                    <label class="sbs" for="level1"><input type="radio" id="level1" name="time" value="yes" checked> Yes</label>
+                    <label class="sbs" for="level2"><input type="radio" id="level2" name="time" value="maybe"> Maybe </label>
+                    <label class="sbs" for="level3"><input type="radio" id="level3" name="time" value="no"> No</label>
             </fieldset>
             <label class="top" for="comments">Comments:
-                <textarea name="txtCom" id="comments" cols="30" rows="10"></textarea>  
+                <textarea name="txtCom" id="comments" cols="30" rows="10" placeholder="Write your comments here"></textarea>  
             </label>    
             <input class="submitBtn" type="submit" value="Send Report">
         </form>
