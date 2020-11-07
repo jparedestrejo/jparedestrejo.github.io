@@ -14,7 +14,6 @@ minutes = check0(minutes);
 seconds = check0(seconds);
  currenthour=hour+":"+minutes+":"+seconds;
 document.getElementById("lastupdated").innerHTML="Last Updated: "+currentdate+" - "+currenthour;
-document.getElementById("compiled").innerHTML=(todaysdate.getMonth()+1)+"."+(todaysdate.getDay()+1)+"."+todaysdate.getFullYear();
 
 //t=setTimeout("currentHour()",1000);
 }

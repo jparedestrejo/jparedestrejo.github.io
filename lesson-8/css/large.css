@@ -14,7 +14,7 @@
   padding:0px;
   margin:0px;
 }
-/*HEADER*/
+/*-------------------HEADER-------------------*/
 
 header{
 display: flex;
@@ -41,7 +41,7 @@ header p{
   font-size:1.5em;
   padding-left: 1em;
 }
-/*NAVIGATION*/
+/*------------------NAVIGATION------------------*/
 nav .ham {display: none;}
         
 nav .menu {
@@ -70,7 +70,7 @@ nav .menu a:hover {
   background: var(--primary-color);
   color:var(--secondary-color);
 }
-/*MAIN*/
+/*---------------MAIN-----------*/
 #stormtitle{
   text-align: center;
   margin: 0.5em;
@@ -78,27 +78,76 @@ nav .menu a:hover {
   font-family: var(--heading-font);
   font-size: 2.3em;
 }
-/*form*/
+/*--------------form-----------*/
 form{
-  border-radius: 15px;
-  border: 2px solid var(--accent3-color);
-  width: 600px;
+  width: 500px;
   margin: auto;
-  margin-bottom: 2em;
-  padding: 1em;
-  box-sizing: border-box;
+
 }
-#boxform{
-  width: 80%;
-  margin: auto;
-  background: yellow;
+form fieldset{
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .8rem;
 }
-input[type=submit]{
+form legend{
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+form label.top{
+  display: block;
+  color: #9c2c13;
+  font-size: 1.5rem;
+}
+form label.top input, form label.top select{
+  /*-webkit-appearance: none;*/
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+form label.sbs{
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+form input.submitBtn{
+  border: none;
+  display: block;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  margin: 10px auto;
+  width: 96%;
+  max-width: 20rem;
+}
+textarea#comments{
+  width: 500px;
+  height: 200px;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  
+}
+form label.top input:required{
+  border-left: red solid 6px;
+}
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}
+/* input[type=submit]{
   display: block;
   margin: auto;
-}
+} */
 
-/*FOOTER*/
+/*------------------FOOTER-------------------*/
 footer{
   display: flex;
 justify-content: center;
@@ -113,7 +162,7 @@ text-align: center;
 footer a{
   color: var(--accent1-color);
 }
-/*thankyou*/
+/*---------------thankyou------------*/
 #thankyoutitle{
   font-size: 2.5em;
   text-align: center;
