@@ -39,7 +39,7 @@ nav ul li a:hover {
   background-color: black;
 }
 nav ul {
-  text-align: right;
+  text-align: left;
 }
 .container {
   margin: 1rem auto; display:grid; 
@@ -59,10 +59,16 @@ figure{
 
 form{
   width: 100%;
-
-
 }
-
+form fieldset{
+  margin: 1rem 0;
+  padding: 0;
+}
+textarea#comments{
+  width: 100%;
+  height: 100px;
+  
+}
 footer div{
   display: flex;
   flex-direction: column;

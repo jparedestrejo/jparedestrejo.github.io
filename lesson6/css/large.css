@@ -64,7 +64,7 @@ nav ul li{
 }
     
 nav ul li a {
-    width: 13%;
+    width: auto;
     padding: 1rem 1rem;
     display: inline-block;
     font-size: 1.7rem;
