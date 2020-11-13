@@ -24,13 +24,14 @@ footer,header h1,main{
 
 .cards{
     display: grid;
-    width: 100%;
+    width: 97%;
+    margin-top: 1em;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.3em;
     box-shadow: 0px 0px 20px rgb(74, 89, 172);
     border:gray 1px solid;
     background: #e9e8e8;
-    padding: 1em;
+    padding: 0.7em;
 }
 section{
     border:gray 1px solid;
@@ -71,7 +72,7 @@ footer a{
  @media only screen and (max-width: 1200px) {
      .cards {
          grid-template-columns: repeat(3, 1fr);
-        
+
      }
      h2{
         font-size: 1.6em;
