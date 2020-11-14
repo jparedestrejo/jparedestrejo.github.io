@@ -71,15 +71,31 @@ nav .menu a:hover {
   color:var(--secondary-color);
 }
 /*---------------MAIN-----------*/
-#hero_box{
+#hero_box, #purpose{
   width: 77%;
   margin: auto;
 }
 .hero_photos img{
-  margin: 1.5em;
+  margin-top: 1em;
   width: 100%;
 }
-
+figcaption{
+  font-size: 0.8em;
+}
+#purpose{
+  margin-top: 0.7em;
+  font-size: 1.5em;
+}
+#towns{
+  width: 77%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  }
+.town{
+  border: 1px red solid;
+}
 
 #contact-box{
   display: flex;
@@ -95,7 +111,9 @@ nav .menu a:hover {
   width: 10%;
 
 }
-
+#info p{
+  margin-left: 0.9em;
+}
 
 /*------------------FOOTER-------------------*/
 footer{
