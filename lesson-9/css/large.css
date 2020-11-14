@@ -86,16 +86,38 @@ figcaption{
   margin-top: 0.7em;
   font-size: 1.5em;
 }
-#towns{
-  width: 77%;
+.towns{
+  width: 87%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background: lightblue;
+  padding: 0.5em;
   }
-.town{
-  border: 1px red solid;
+.towns section{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background: rgb(245, 238, 146);
+  color: blue;
 }
+.towns section img{
+  margin: 0%;
+}
+.towns section h2{
+  font-size: 2em;
+}
+.towns section h2,.towns section h4{
+  font-weight: bolder;
+}
+.towns section h4{
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
 
 #contact-box{
   display: flex;
@@ -135,4 +157,48 @@ footer a{
   font-size: 2.5em;
   text-align: center;
   line-height: 5em;
+}
+
+@media only screen and (max-width:50em) {/*max 800px*/
+  .towns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+      width: 100%;
+      height: 2.5em;
+      font-size: 1em;
+    }
+header h1{
+   width: 100%;
+   font-size: 2.5em;
+
+}
+p{
+    font-size: 1.1em;
+}
+h2{
+    font-size: 1.5em;
+}
+}
+@media only screen and (max-width:31.2em) {/*max 500px*/
+  .towns {
+      grid-template-columns:  1fr;
+  }
+  footer{
+      width: 100%;
+      height: 2.5em;
+      font-size: 1em;
+    }
+header h1{
+   width: 100%;
+   font-size: 2em;
+
+}
+p{
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.9em;
+}
 }
