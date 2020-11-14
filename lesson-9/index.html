@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The purpose of this page is for the user to report a storm or unusual weather event in his or her travel area">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Chewy&display=swap">
+    <link rel="stylesheet" href="css/large.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    
+    <link rel="stylesheet" href="css/small.css"/>
+    <script src="js/index.js" defer></script>
+    <script src="js/hamburg.js" defer></script>        
+    <link rel="shortcut icon" href="images/favicon.ico">  
+    <title>Storm Center</title>
+</head>
+<body>
+    
+    <header>
+        <picture>
+            <img src="images/weatherlogo.png" alt="Watch your clima logo">
+        </picture>
+        <section>
+            <h1>Watch Your Clima</h1>
+            <p class="phrase">the weather at your service</p>
+        </section>
+    </header>
+    <nav>            
+            <ul class="menu">
+                <li class="ham">&#9776; MENU</li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a  href="../lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+    </nav>
+    <main> 
+        <div id="hero_box">
+            <picture class="hero_photos">
+                <source media="(max-width:500px)" srcset="images/small.jpg">
+                <source media="(max-width:900px)" srcset="images/medium.jpg">    
+                <source media="(min-width:901px)" srcset="images/large.jpg">
+                <img src="images/heroimagopt.jpg" alt="hero box image">   
+            </picture>
+        </div> 
+        <div id="contact-box">
+            <div id="map">
+                <a href="https://goo.gl/maps/CgUQTPBfsQB7JFRX8"></a>
+                    <img src="images/map360.jpg" alt="map">
+                </a>
+            </div>
+            <div id="info">
+                <h2>The weather Site</h2>
+                <img class="contac" src="images/address.png" alt="address icon"> <span>30 N 1st E</span>
+                <p>Preston, ID 83263</p> <br>
+                <img class="contac" src="images/phone.png" alt="phone icon"><span> 999-999-9999</span> <br>
+                <img class="contac" src="images/email.png" alt="email icon"><span> theweathersite@tws.com</span> <br><br>
+                <a href="https://www.facebook.com"><img class="social" src="images/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.pinterest.com"><img class="social" src="images/pinterest.png" alt="pinterest icon"></a>
+                <a href="http://www.twitter.com"><img class="social" src="images/twiter.png" alt="twitter icon"></a>
+                <a href="https://web.whatsapp.com/"><img class="social" src="images/whatsup.png" alt="whatsup icon"></a>
+            </div>
+        </div>      
+    </main>
+    <footer>
+        <div>
+            <p>&#169;<span id="copyright-year"></span> | <a href="https://jparedestrejo.github.io">Jaime Paredes Trejo</a> |<a href="home-wireframes.html"> Wireframes</a></p>
+                <span id="lastupdated"> Last Updated: </span>
+        </div>
+    </footer>
+
+</body>
+</html>
