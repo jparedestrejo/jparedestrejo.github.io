@@ -1,70 +1,119 @@
-@media only screen and (max-width:31.25em) {/*max 500px*/
 
-  .pancakealert{
-
-
-    padding:0.5em;
-    height: 3em;
+/*------------------MOBIL VIEW------------------*/
+@media only screen and (max-width:31.2em) {/*max 500px*/
+  header{
+    display: flex;
+  justify-content:flex-start;
+  align-items: center;
+    position: relative;
+    font-size: 0.7em;
+ width: 100%;
+  }
+  header .phrase{
+    font-size: 1.3em;
+  }
+  header img{
+    width:100%;
+  }
+  header section h1{
+    font-size: 2em;
+  }
+  
+  .menu{
+    position:absolute;
+    top: 60px;
+    right: 10px;
+    z-index: 1;
+  }
+  .menu li {
+  display: none;
+  }
+  .menu li:first-child {
+  display: block;
+  }
+  .responsive li{
+      display: block;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+    background-color: black;
+  }
+  nav ul {
+    text-align: right;
+  }
+ 
+  #hero_box, #purpose{
+    width: 100%;
 
   }
+  figcaption{
+    padding-left: 0.8em;
+  }
+  header h1{
+    width: 100%;
+    font-size: 2em;
+ 
+ }
+ p{
+     font-size: 1.3em;
+ }
+ h2{
+     font-size: 1.9em;
+ }
+  #purpose{
+    padding: 0;
+    margin-top: 0.7em;
+    font-size: 1.1em;
+    padding: 0.5em;
 
-header .phrase{
-  font-size: 1.3em;
-}
-header img{
-  width:100%;
-}
-header section h1{
-  font-size: 2em;
-}
+    box-sizing: border-box;
+  }
+  .towns {
+      grid-template-columns:  1fr;
+      padding: 0;
+      margin: 0%;
+      width: 100%;
 
-.menu{
-  position:absolute;
-  top: 60px;
-  right: 10px;
-  z-index: 1;
-}
-.menu li {
-display: none;
-}
-.menu li:first-child {
-display: block;
-}
-.responsive li{
-    display: block;
-}
+      box-sizing: border-box;
+  }
+ 
+  .towns section img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+  } 
+  /*-----------CONTACT BOX----------------------*/
+  #contact-box{
+    display: flex;
+    flex-direction: column-reverse;
+      padding: 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    #map{
+     display: none;
+    }
+    
+    #info{
+      padding: 0px;
+      font-size: 0.8em;
+    }
+    .contac{
+      width: 10%;
+    }
+    .social{
+      width: 10%;
+    
+    }
 
-nav ul li a:hover {
-  color: white;
-  background-color: black;
-}
-nav ul {
-  text-align: left;
-}
-.container {
-  margin: 1rem auto; display:grid; 
-  grid-template-columns: 1fr;
-  max-width: 500px;
-  grid-gap: 5px;
-}
 
-footer div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height:5em;
-  font-size: 0.6em;
-  text-align: center;
-}
-footer{
-  height: 100%;
-}
-/*Thank you page*/
-#thankyoutitle{
-  font-size: 1.5em;
-  text-align: center;
-  line-height: 1em;
-  padding: 1em;
-}
+  /*------------------FOOTER--------------*/
+  footer{
+      width: 100%;
+      height: 5em;
+      font-size: 0.8em;
+    }
 
 }
