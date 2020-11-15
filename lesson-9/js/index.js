@@ -44,6 +44,9 @@ fetch(requestURL)
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
             let image = document.createElement('img');
+
+            let townInfo = document.createElement('div');
+            let townImage = document.createElement('div');
            
             h2.textContent = town.name;
             h4.textContent = town.motto;
@@ -53,12 +56,16 @@ fetch(requestURL)
             image.setAttribute('src', 'images/'+town.photo);
             image.setAttribute('alt', town.name);
 
-            card.appendChild(h2);
-            card.appendChild(h4);
-            card.appendChild(p1);
-            card.appendChild(p2);
-            card.appendChild(p3);
-            card.appendChild(image);
+            townInfo.appendChild(h2);
+            townInfo.appendChild(h4);
+            townInfo.appendChild(p1);
+            townInfo.appendChild(p2);
+            townInfo.appendChild(p3);
+            townImage.appendChild(image);
+
+            card.appendChild(townInfo);
+            card.appendChild(townImage);
+
             document.querySelector('div.towns').appendChild(card);
             
         });
