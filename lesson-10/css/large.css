@@ -1,0 +1,162 @@
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #0000FF;
+  --secondary-color: #64FAFA;
+  --accent1-color: #FFFFFF;
+  --accent2-color: #FF9B00;
+  --accent3-color:#8AA4AA;
+/* change the values below to your chosen font(s) */
+  --heading-font: "Chew", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
+}
+*{
+  padding:0px;
+  margin:0px;
+}
+/*-------------------HEADER-------------------*/
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+background: var(--primary-color);
+height:8em;
+text-shadow: 4px 4px 5px var(--accent1-color);
+}
+header picture{
+  width: 9em;
+}
+header h1{
+  font-family: var(--heading-font);
+  margin: 0;
+  font-size:3em;
+  color:var(--secondary-color);
+}
+header img{
+  width:100%;
+}
+header p{
+  color:var(--accent2-color);
+  font-size:1.5em;
+  padding-left: 1em;
+}
+/*------------------NAVIGATION------------------*/
+nav .ham {display: none;}
+        
+nav .menu {
+  display: block;
+  background: var(--secondary-color);
+}
+    
+nav ul {text-align: center;}
+    
+nav ul li{
+    display:inline;
+}
+    
+nav ul li a {
+    width: auto;
+    padding: 1rem 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+.active {
+  background: var(--primary-color);
+  color:var(--secondary-color);
+}
+nav .menu a:hover {
+  background: var(--primary-color);
+  color:var(--secondary-color);
+}
+/*---------------MAIN-----------*/
+#hero_box, #purpose{
+  width: 77%;
+  margin: auto;
+}
+.hero_photos img{
+  margin-top: 1em;
+  width: 100%;
+}
+.figcaption{
+  font-size: 0.8em;
+}
+#purpose{
+  margin-top: 0.7em;
+  font-size: 1.5em;
+}
+.towns{
+  width: 87%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background: lightblue;
+  padding: 0.5em;
+  }
+.towns section{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background: rgb(245, 238, 146);
+  color: blue;
+}
+.towns section img{
+  margin: 0%;
+  width: 100%;
+}
+.towns section h2{
+  font-size: 2em;
+}
+.towns section h2,.towns section h4{
+  font-weight: bolder;
+}
+.towns section h4{
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+
+#contact-box{
+  display: flex;
+  padding: 1em 15em; 
+  background-color: var(--accent3-color);
+}
+#info{
+  margin: auto;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.contac{
+  width: 10%;
+
+}
+#info p{
+  margin-left: 0.9em;
+}
+
+/*------------------FOOTER-------------------*/
+footer{
+  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+  font-family:var(--paragraph-font);
+  font-size: 1.2em;
+  color: var(--accent1-color);
+  background: var(--primary-color);
+  height:4em;
+}
+footer a{
+  color: var(--accent1-color);
+}
+/*---------------thankyou------------*/
+#thankyoutitle{
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 5em;
+}
+
