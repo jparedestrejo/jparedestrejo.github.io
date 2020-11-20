@@ -1,4 +1,4 @@
-var daynames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+var dayweeknames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 const apiURL="http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=07e8cdd414f51e368d4433fb5d72ef74";
 fetch(apiURL)
@@ -19,7 +19,7 @@ fetch(apiURL)
     let day=0;
     fivedays.forEach(element => {
       const d = new Date(element.dt_txt);
-      document.getElementById(`dayname${day+1}`).textContent = daynames[d.getDay()];
+      document.getElementById(`dayname${day+1}`).textContent = dayweeknames[d.getDay()];
       const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
       document.querySelectorAll(".weather-forecast ul li img")[day].src=imagesrc;
       document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=element.main.temp;
