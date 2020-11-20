@@ -93,3 +93,28 @@ align-items: center;
   }
 
 }
+@media only screen and (max-width: 68.75em) {/*max 1100 px */
+  nav ul li a {
+    font-size: 1.5em;
+  }
+  #map img{
+    width: 80%;
+  }
+  img.social{
+    width: 15%;
+  }
+  #contact-box{
+    padding: 1em 10em; 
+  
+  }
+  #info{
+    margin: auto;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  .contac{
+    width: 10%;
+  
+  }
+
+}
