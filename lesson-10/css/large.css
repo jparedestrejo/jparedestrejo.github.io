@@ -69,6 +69,7 @@ nav ul li a {
     display: inline-block;
     font-size: 1.7rem;
     text-decoration: none;
+    font-family: var(--heading-font);
 }
 .active {
   background: var(--primary-color);
@@ -185,6 +186,7 @@ nav .menu a:hover {
   display: flex;
   padding: 1em 15em; 
   background-color: var(--accent3-color);
+  font-family: var(--heading-font);
 }
 #info{
   margin: auto;

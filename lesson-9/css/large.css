@@ -61,6 +61,7 @@ nav ul li a {
     display: inline-block;
     font-size: 1.7rem;
     text-decoration: none;
+    font-family: var(--heading-font);
 }
 .active {
   background: var(--primary-color);
@@ -74,6 +75,7 @@ nav .menu a:hover {
 #hero_box, #purpose{
   width: 77%;
   margin: auto;
+  font-family: var(--paragraph-font);
 }
 .hero_photos img{
   margin-top: 1em;
@@ -96,6 +98,7 @@ nav .menu a:hover {
   margin-top: 1em;
   background: lightblue;
   padding: 0.5em;
+  font-family: roboto;
   }
 .towns section{
   margin: 0%;
@@ -124,6 +127,7 @@ nav .menu a:hover {
   display: flex;
   padding: 1em 15em; 
   background-color: var(--accent3-color);
+  font-family: var(--heading-font);
 }
 #info{
   margin: auto;
