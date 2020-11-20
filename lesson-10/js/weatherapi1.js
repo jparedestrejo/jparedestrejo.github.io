@@ -25,5 +25,4 @@ fetch(apiURL)
       document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=element.main.temp;
       day++
     });
-//alert(daynames[new Date(fivedays[1].dt_txt).getDay()])
   });
