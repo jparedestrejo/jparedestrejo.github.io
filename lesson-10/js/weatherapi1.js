@@ -23,6 +23,6 @@ fetch(apiURL)
       const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
       document.querySelectorAll(".weather-forecast ul li img")[day].src=imagesrc;
       document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=element.main.temp;
-      day++
+      day++;
     });
   });
