@@ -7,8 +7,8 @@
   --accent2-color: #FF9B00;
   --accent3-color:#8AA4AA;
 /* change the values below to your chosen font(s) */
-  --heading-font: "Chew", sans-serif;
-  --paragraph-font: "Open Sans", sans-serif;
+--heading-font: "Roboto", sans-serif;
+--paragraph-font: "Chewy", sans-serif;
 }
 *{
   padding:0px;
