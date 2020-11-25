@@ -1,0 +1,22 @@
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+span a{
+  position: relative;
+  top: -25px;
+  font-size: 1.3em;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  img {
+    border:2px solid blue;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
