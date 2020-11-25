@@ -85,7 +85,32 @@ align-items: center;
     width: 10%;
   
   }
-  
+/*index towns*/
+.towns{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.towns section {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  text-align: center;
+}
+.towns section:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem;
+  text-align: center;
+}
+.towns section div {
+  width: 50%;
+}
+.towns section div:nth-child(1) {
+  line-height: 2.5em;
+}
+
+
 
   footer{
     display: flex;

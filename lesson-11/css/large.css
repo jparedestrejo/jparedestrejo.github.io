@@ -92,8 +92,12 @@ nav .menu a:hover {
 
 #hero_box{
   position: relative;
+
+}
+#hero_box, #purpose{
   width: 77%;
   margin: auto;
+  font-family: var(--paragraph-font);
 }
 .hero_photos img{
   width: 100%;
@@ -184,6 +188,40 @@ nav .menu a:hover {
   margin-top: 0.7em;
   font-size: 1.5em;
 }
+.towns{
+  width: 87%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background: lightblue;
+  padding: 0.5em;
+  font-family: roboto;
+  }
+.towns section{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background: rgb(245, 238, 146);
+  color: blue;
+}
+.towns section img{
+  margin: 0%;
+  width: 100%;
+}
+.towns section h2{
+  font-size: 2em;
+}
+.towns section h2,.towns section h4{
+  font-weight: bolder;
+}
+.towns section h4{
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
 #map img{
   width: 100%;
 }
