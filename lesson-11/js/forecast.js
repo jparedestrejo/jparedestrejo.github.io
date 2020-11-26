@@ -29,7 +29,7 @@ fetch(apiURL)
       document.getElementById(`dayname${day+1}`).textContent = dayweeknames[d.getDay()];
       const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
       document.querySelectorAll(".weather-forecast ul li img")[day].src=imagesrc;
-      document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=element.main.temp;
+      document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=Math.ceil(parseFloat(element.main.temp));
       day++;
     });
   });
