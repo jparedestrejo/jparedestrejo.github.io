@@ -1,6 +1,13 @@
 var dayweeknames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const ntown = document.querySelector("#town_box h2").textContent;
+if(ntown.includes("Preston"))
+  codi="id=5604473";
+else if(ntown.includes("Soda"))
+  codi="id=5607916";
+else
+  codi="lat=42.0380399&lon=-111.4048681";
 
-const apiURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=07e8cdd414f51e368d4433fb5d72ef74";
+const apiURL="https://api.openweathermap.org/data/2.5/forecast?"+codi+"&units=imperial&appid=07e8cdd414f51e368d4433fb5d72ef74";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
