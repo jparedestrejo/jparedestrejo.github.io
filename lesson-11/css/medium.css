@@ -52,7 +52,7 @@ display: none;
   }
   #article_box figure.myphoto{
     text-align: center;
-    width: 100%;
+    width: 60%;
 margin-bottom: 3%;
 
   
@@ -109,7 +109,7 @@ align-items: center;
 .towns section:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
-  padding: 1rem;
+
   text-align: center;
 }
 .towns section div {
