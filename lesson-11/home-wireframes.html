@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wireframes Weather site home page">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/home-wireframes.css">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <title>Weather site home page Wireframes</title>
+</head>
+<body>
+    <header>
+        <h1>Wireframes</h1>
+    </header>
+    <main>
+    <div class="wf">
+        <figure>
+            <img src="images/1-pc.png" alt="noa">
+            <figcaption>Laptop viewport</figcaption>
+        </figure>
+        <figure>
+            <img src="images/2-tablet.png" alt="yue">
+            <figcaption>Table viewport</figcaption>
+        </figure>
+        <figure>
+            <img src="images/3-mobil.png" alt="victor">
+            <figcaption>Mobil viewport</figcaption>
+        </figure>
+    </div>
+    </main>
+    <footer>
+    Jaime Paredes Trejo | BYU-Idaho | <span id="portal">Home</span>
+    </footer>
+    <script>
+        var p=document.getElementById("portal");
+        p.style.cursor="pointer";
+        p.onclick=function(){
+            location="index.html";
+        }
+    </script>
+</body>
+</html>
