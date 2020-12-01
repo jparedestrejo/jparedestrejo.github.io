@@ -13,7 +13,7 @@ hour = check0(hour);
 minutes = check0(minutes);
 seconds = check0(seconds);
 var currenthour=hour+":"+minutes+":"+seconds;
-document.getElementById("lastupdated").innerHTML="Last Updated: "+currentdate+" - "+currenthour;
+document.getElementById("lastupdated").innerHTML="Last Updated: "+currentdate//+" - "+currenthour;
 //t=setTimeout("currentHour()",1000);
 }
 document.getElementById("copyright-year").innerText = new Date().getFullYear();

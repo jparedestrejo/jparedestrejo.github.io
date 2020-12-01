@@ -181,6 +181,9 @@ nav .menu a:hover {
   float: right;
 
 }
+#article_box a{
+  color: var(--accent1-color);
+}
 #article_box figure.myphoto img{
   
   box-shadow: 5px 5px 18px blue,-5px -5px 18px blue;
@@ -350,8 +353,24 @@ figcaption {font-size: smaller;padding:8px;font-family: var(--paragraph-font);}
 img[data-src] {
   filter: blur(0.2em);
 }
+/*TERMS OF USE PAGE*/
+#terms{
+  padding: 5% 10%;
+  margin: auto;
+  font-family: var(--heading-font);
+}
+#terms h1{
+  margin-bottom: 10px;
+  
+}
+#terms li{
+  margin-left: 55px;
+  font-size: 1.2em;
 
-
+}
+#terms ul{
+  list-style: url(../images/favicon.ico);
+}
 /*FOOTER*/
 footer{
   display: flex;
