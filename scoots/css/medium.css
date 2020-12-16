@@ -1,0 +1,25 @@
+@media only screen and (max-width: 59.375em) {/*max 950 px */
+  
+  nav .menu li a {
+   
+    padding: 0.5rem 0.5rem;
+    font-size: 1.4rem;
+  
+}
+nav ul li{
+  width: 8em;
+}
+#textlogo{
+ 
+  font-size: 3rem;
+  
+}
+
+/*****HEROBOX******/
+#calltoaction button{
+
+  border-radius: 0.7em;
+  font-size: 1.1em;
+  width: 100%;
+}
+}

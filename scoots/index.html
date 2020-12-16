@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/large.css"/>
+    <link rel="stylesheet" href="css/medium.css"/> 
+    <link rel="stylesheet" href="css/small.css"/>
+    
+    
+    <script src="js/hamburg.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <title>Scoot Home Page</title>
+</head>
+<body>
+    <header>
+        <img id="imglogo" src="images/logoscooter.png" alt="logo scooter">
+        <h1 id="textlogo">WheretoNow.com</h1>
+        <nav>
+            <ul class="menu">
+                <li class="ham">&#9776;MENU</li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="herobox">
+            <picture id="heroimage">
+                <source media="(max-width:500px)" srcset="images/small.jpg">
+                <source media="(max-width:950px)" srcset="images/medium.jpg">    
+                <source media="(min-width:911px)" srcset="images/large.jpg">                
+                <img src="images/heroimage.jpg" alt="hero box image">                            
+            </picture>
+            <div id="calltoaction">
+                <h2>We know where to take you</h2>
+                <button>Rental Now..</button>
+            </div>            
+        </section>
+        <section id="weatherbox">
+            <div id="summary">
+                <h2>Weather Summary</h2>
+                    <div id="data">
+                        <div id="d1">
+                            <p>Currently:&nbsp; </p> 
+                            <p>High:&nbsp; </p>
+                            <p>Wind Chill:&nbsp; </p>
+                            <p>Humidity:&nbsp; </p>
+                            <p>Wind Speed:&nbsp; </p>
+                        </div>
+                        <div id="d2">
+                            <p><span id="desc">Sunny</span></p>
+                            <p><span id="temp">40</span> &#176;F</p>
+                            <p><span id="output"> </span></p>
+                            <p><span id="humid"> 69%</span></p>
+                            <p> <span id="speed">5</span> mph</p>
+                        </div>
+                    </div>    
+            </div>
+            <div id="forecast">                
+                <h2>3 day forecast</h2> 
+                <div class="weather-forecast">
+                 <ul>
+                     <li>
+                         <h3 id="dayname1">&nbsp;</h3>
+                         <img src="images/sun.png" alt="sun icon">
+                         <p><span></span>&#176; F</p>
+                     </li>
+                     <li>
+                         <h3 id="dayname2">&nbsp;</h3>
+                         <img src="images/sun.png" alt="sun icon">
+                         <p><span></span>&#176; F</p>
+                     </li>
+                     <li>
+                         <h3 id="dayname3">&nbsp;</h3>
+                         <img src="images/sun.png" alt="sun icon">
+                         <p><span></span>&#176; F</p>
+                         </li>
+                     </li>
+                 </ul>
+             </div>
+        </section>
+        <section id="reantals">
+
+        </section>
+    </main>
+    <footer>
+        <div id="copyright"></div>
+        <div id="lastupdated">Last Updated:</div>
+        <div id="resources"><a href="resources.html"> Resources</a></div>
+        <div id="socialnets">
+            <a href="https://www.facebook.com"><img class="social" src="images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.pinterest.com"><img class="social" src="images/pinterest.png" alt="pinterest icon"></a>
+            <a href="http://www.twitter.com"><img class="social" src="images/twiter.png" alt="twitter icon"></a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+          WebFont.load({
+            google: {
+              families: ['Aclonica', 'Open Sans']
+            }
+          });
+        </script>
+</body>
+</html>

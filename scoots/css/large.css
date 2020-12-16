@@ -1,0 +1,184 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #0000FF;
+    --secondary-color: #64FAFA;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #FF9B00;
+    --accent3-color:#8AA4AA;
+  /* change the values below to your chosen font(s) */
+    --heading-font: "Aclonica", sans-serif;
+    --paragraph-font: "Open Sans", sans-serif;
+  }
+/***********HEADER*******/
+header{
+    display: grid;
+    grid-template-columns: 0.5fr 4.5fr;
+  grid-gap: 0.5em;
+    background: yellow;
+    align-items: center;
+}
+#imglogo{
+    width: 100%;
+    grid-column: 1/2;
+}
+#textlogo{
+    grid-column: 2/3;
+    font-size: 3rem;
+    margin-left: 0.4em;
+    font-family: var(--heading-font);
+}
+
+/***Navigation***********/
+nav .ham {display: none;}
+nav{
+    grid-column: 1/3;
+
+}        
+nav .menu {
+padding: 0%;
+margin-bottom: 1.5em;
+  /*background: var(--secondary-color);*/
+}
+    
+
+    
+nav ul li{
+    display:inline-block;
+    width: 10em;
+}
+nav ul li:nth-child(4){
+ 
+    width: 15em;
+}
+    
+nav .menu li a {
+   
+    padding: 1rem 1rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-family: var(--heading-font);
+}
+.active {
+  background: blue;
+  color:yellow;
+}
+nav .menu a:hover {
+  background: blue;
+  color:yellow;
+}
+/*********MAIN*********/
+/**********HERO BOX*************/
+#heroimage img{
+    width: 100%;
+}
+#calltoaction{
+    position: absolute;
+    top: 250px;
+    left: 60%;
+    width: 30%;
+    background-color: var(--accent2-color);
+    padding: 1.5em;
+    border: 1px solid var(--accent3-color);
+    box-shadow: 5px 5px 5px var(--accent3-color);
+    color: var(--accent1-color);
+    opacity: 90%;
+    font-weight: bolder;
+    font-family: var(--heading-font);
+    box-sizing: border-box;
+  }
+  #calltoaction button{
+    width: 50%;
+    height: 30%;
+    background:yellow;
+    border-radius: 1em;
+    font-size: 1.2em;
+  }
+/**********WEATHER BOX*************/
+
+#weatherbox{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 2.5em;
+    align-items: center;
+    justify-items: center;
+width: 70%;
+    margin: auto;
+}
+#summary{
+    border: 1px solid red;
+    border-radius: 1em;
+    width: 100%;
+    margin: 0%;
+    padding: 1em;
+}
+#summary h2{
+margin: 0%;
+padding: 3px;
+    font-family: var(--heading-font);
+}
+#summary p{
+    margin: 0.3em;
+    font-family: var(--paragraph-font);
+}
+#d1{
+    text-align: right;
+    font-weight: bolder;
+  }
+  #d2{
+    text-align: left;
+    font-weight: bolder;
+    color:red;
+  }
+  #data{
+    display: flex;
+  }
+  /*****FORECAST*******/
+  #forecast{
+    border: 1px solid red;
+    border-radius: 1em;
+    width: 100%;
+    text-align: center;
+    font-family: var(--heading-font);
+  }
+  
+  .weather-forecast ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+   
+  }
+  .weather-forecast h3{
+    background-color: var(--secondary-color);
+    margin: 0px;
+    padding: 3px;
+  
+  }
+  .weather-forecast li{
+    flex: 1;
+    border: 1px solid var(--primary-color);
+  }
+  .weather-forecast p{
+    font-family: var(--paragraph-font);
+  }
+  
+  .weather-forecast img{
+    height: 100px;
+   }
+
+/**********RENTALS BOX*************/
+
+/********FOOTER**************/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr;
+    
+}
+#copyright,#lastupdated, #resources, #socialnets{
+    padding-top: 0.3em;
+    align-self: center;
+
+ 
+}
+/*****************FOOTER******************/
+

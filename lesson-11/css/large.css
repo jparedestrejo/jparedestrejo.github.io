@@ -138,11 +138,8 @@ nav .menu a:hover {
   text-align: center;
   font-family: var(--heading-font);
 }
-.weather-forecast{  
-  margin-top: 20px;
 
 
-}
 .weather-forecast ul{
   list-style: none;
   display: flex;
