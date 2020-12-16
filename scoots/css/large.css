@@ -40,8 +40,6 @@ margin-bottom: 1.5em;
   /*background: var(--secondary-color);*/
 }
     
-
-    
 nav ul li{
     display:inline-block;
     width: 10em;
@@ -101,7 +99,7 @@ nav .menu a:hover {
     grid-gap: 2.5em;
     align-items: center;
     justify-items: center;
-width: 70%;
+    width: 70%;
     margin: auto;
 }
 #summary{
@@ -112,8 +110,8 @@ width: 70%;
     padding: 1em;
 }
 #summary h2{
-margin: 0%;
-padding: 3px;
+    margin: 0%;
+    padding: 3px;
     font-family: var(--heading-font);
 }
 #summary p{
