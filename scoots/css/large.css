@@ -200,6 +200,9 @@ font-size: 1.5em;
 .types h2{
   margin: auto;
 }
+.types img{
+  width: 100%;
+}
 
 /********FOOTER**************/
 footer{

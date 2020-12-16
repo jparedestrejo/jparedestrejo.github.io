@@ -93,6 +93,7 @@ width: 100%;
 #typesrental .types{
   border: 1px red solid;
   border-radius: 15px;
+  grid-gap: 0px;
   padding: 0.2em;
   box-sizing: border-box;
 }
