@@ -30,7 +30,7 @@
       .menu{
        position: absolute;
        top: 40px;
-       left: 200px;
+       left: 100px;
         z-index: 1;
       }
       .menu li {
