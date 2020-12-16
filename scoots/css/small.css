@@ -84,6 +84,20 @@ grid-row: 2/3;
 width: 100%;
 
 }
+/**********RENTALS BOX*************/
+#typesrental{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: var(--paragraph-font);
+}
+#typesrental .types{
+  border: 1px red solid;
+  border-radius: 15px;
+  padding: 0.2em;
+  box-sizing: border-box;
+}
+
+
 /**********FOOTER*****************/
 footer{
     display: grid;

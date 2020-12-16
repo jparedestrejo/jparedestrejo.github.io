@@ -37,7 +37,7 @@ nav{
 nav .menu {
 padding: 0%;
 margin-bottom: 1.5em;
-  /*background: var(--secondary-color);*/
+
 }
     
 nav ul li{
@@ -165,6 +165,41 @@ nav .menu a:hover {
    }
 
 /**********RENTALS BOX*************/
+#typesrental{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  font-family: var(--paragraph-font);
+  justify-items: center;
+  
+}
+#typesrental h2{
+  text-align: center
+}
+#rentalinfo{
+  width: 80%;
+margin: auto;
+font-family: var(--paragraph-font);
+font-size: 1.5em;
+}
+#rentalinfo h2{
+  margin-bottom: 0%;
+  padding: 0%;
+  
+}
+#rentalinfo p{
+  margin-top: 0%;
+
+}
+#typesrental .types{
+  border: 1px red solid;
+  border-radius: 15px;
+  padding: 1.8em;
+  box-sizing: border-box;
+}
+.types h2{
+  margin: auto;
+}
 
 /********FOOTER**************/
 footer{
