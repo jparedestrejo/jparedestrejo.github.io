@@ -106,35 +106,32 @@ nav .menu a:hover {
     border: 1px solid red;
     border-radius: 1em;
     width: 100%;
-    margin: 0%;
+
     padding: 1em;
 }
 #summary h2{
-    margin: 0%;
-    padding: 3px;
+  margin-top: 0px;
+    margin-bottom: 0.2em;
     font-family: var(--heading-font);
 }
-#summary p{
-    margin: 0.3em;
+#summary table{
     font-family: var(--paragraph-font);
 }
-#d1{
-    text-align: right;
-    font-weight: bolder;
-  }
-  #d2{
-    text-align: left;
-    font-weight: bolder;
-    color:red;
-  }
-  #data{
-    display: flex;
-  }
+#summary table tr td:nth-child(1){
+  text-align: right;
+}
+#summary table tr td:nth-child(2){
+  font-weight: bold;
+  color:blue; 
+}
+
+
   /*****FORECAST*******/
   #forecast{
     border: 1px solid red;
     border-radius: 1em;
     width: 100%;
+    margin-top: 5px;
     text-align: center;
     font-family: var(--heading-font);
   }
