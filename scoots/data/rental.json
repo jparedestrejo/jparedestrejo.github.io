@@ -9,7 +9,7 @@
             "walkin":[
                 "25","35"
             ],
-            "url":""
+            "url":"hondametro.jpg"
         },
         {
             "type":"Honda dio", 
@@ -21,7 +21,7 @@
             "walkin":[
                 "35","45"
             ],
-            "url":""
+            "url":"hondadio.jpg"
         },
         {
             "type":"Honda pcx150",
@@ -33,7 +33,7 @@
              "walkin":[
                  "45","55"
              ],
-             "url":""
+             "url":"hondapcx150.jpg"
         },
         {
             "type":"Honda pioner ATV",
@@ -45,19 +45,7 @@
             "walkin":[
                 "60","80"
             ],
-            "url":""
-        },
-        {
-            "type":"Jeep Wrangler - 4 door",
-            "description":"4-door Jeep Wrangler - manual with A/C - 5 people max",
-            "maxper":"5",
-            "reservation":[
-                "70","100"
-            ],
-            "walkin":[
-                "85","125"
-            ],
-            "url":""
+            "url":"atvhonda.jpg"
         },
         {
             "type":"Jeep Wrangler - 2 door",
@@ -69,7 +57,19 @@
             "walkin":[
                 "70","90"
             ],
-            "url":""
+            "url":"jeep2doors.jpg"
+        },
+        {
+            "type":"Jeep Wrangler - 4 door",
+            "description":"4-door Jeep Wrangler - manual with A/C - 5 people max",
+            "maxper":"5",
+            "reservation":[
+                "70","100"
+            ],
+            "walkin":[
+                "85","125"
+            ],
+            "url":"jeep4doors.jpg"
         }
 ]
     
