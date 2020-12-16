@@ -77,12 +77,17 @@ margin: 0%;
 }
 #summary{
   grid-row: 1/2;
-  width: 95%;
+  width: 96%;
+}
+#summary h2, #forecast h2{
+  font-size: 1.6em;
+}
+#summary table{
+  margin: auto;
 }
 #forecast{
 grid-row: 2/3;
 width: 100%;
-
 }
 /**********RENTALS BOX*************/
 #typesrental{

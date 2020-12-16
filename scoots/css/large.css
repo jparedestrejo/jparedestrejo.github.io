@@ -112,6 +112,7 @@ nav .menu a:hover {
 #summary h2{
   margin-top: 0px;
     margin-bottom: 0.2em;
+    text-align: center;
     font-family: var(--heading-font);
 }
 #summary table{
