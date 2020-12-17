@@ -84,7 +84,7 @@ nav .menu a:hover {
     font-family: var(--heading-font);
     box-sizing: border-box;
   }
-  #calltoaction button, div button{
+  #calltoaction button{
     width: 50%;
     height: 30%;
     background:yellow;
@@ -172,10 +172,7 @@ nav .menu a:hover {
 #typesrental h2{
   text-align: center
 }
-#typesrental button{
-  display: block;
-  margin: auto;
-}
+
 
 #rentalinfo{
   width: 80%;
@@ -238,6 +235,9 @@ div button{
   display: block;
   margin: auto;
   margin-top:0.5em;
+     background:yellow;
+    border-radius: 1em;
+    font-size: 1.2em;
 }
 
 /********FOOTER**************/

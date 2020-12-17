@@ -7,7 +7,7 @@ fetch(apiURL)
   .then((data) => {
     
     const list = data['typesrental'];
-    list.forEach(town => {
+    list.forEach(trent => {
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       
@@ -25,15 +25,16 @@ fetch(apiURL)
       let rentimage = document.createElement('div');
       let boton = document.createElement('div');
 
-      h2.textContent = town.type;
-      p1.textContent = "Max. per: "+town.maxper;
-      p2.textContent = "Reservation Half Day: "+town.reservation[0];
-      p3.textContent = "Reservation Full Day: "+town.reservation[1];
-      p4.textContent = "Walk-in Half Day: "+town.walkin[0];
-      p5.textContent = "Walk-in Full Day: "+town.walkin[1];
-      p6.textContent = town.description;
-      image.setAttribute('src', 'images/rental/'+town.url);
-      image.setAttribute('alt', town.description);
+      h2.textContent = trent.type;
+      p1.textContent = "Max. per: "+trent.maxper;
+      p2.textContent = "Reservation Half Day: "+trent.reservation[0];
+      p3.textContent = "Reservation Full Day: "+trent.reservation[1];
+      p4.textContent = "Walk-in Half Day: "+trent.walkin[0];
+      p5.textContent = "Walk-in Full Day: "+trent.walkin[1];
+      p6.textContent = trent.description;
+      image.setAttribute('data-src', 'images/rental/'+trent.url);
+      image.setAttribute('src', 'https://via.placeholder.com/360x240');
+      image.setAttribute('alt', trent.description);
       btn.textContent = "Rent Now!";
 
       titulo.appendChild(h2);
