@@ -8,5 +8,6 @@ fetch(apiURL)
   .then((jsObject) => {
     
     console.log(jsObject)
+    console.log()
 });
 

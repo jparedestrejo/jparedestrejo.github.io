@@ -1,4 +1,5 @@
-[
+{
+    "typesrental": [
         {
             "type":"Honda metro",
             "description":"Honda Metropolitan (49cc) - 1 person",
@@ -71,5 +72,5 @@
             ],
             "url":"jeep4doors.jpg"
         }
-]
-    
+    ]
+}
