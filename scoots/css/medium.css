@@ -41,4 +41,10 @@ nav ul li{
     width: 90%;
 
   }
+  #rent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5em;
+    margin-top: 0.5em;
+  }
 }

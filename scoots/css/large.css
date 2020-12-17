@@ -205,6 +205,10 @@ font-size: 1.5em;
   width: 100%;
 }
 /********RENTAL PAGE**************/
+main>h1{
+  font-family: var(--heading-font);
+  text-align: center;
+}
 #rent{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -220,7 +224,8 @@ font-size: 1.5em;
   font-size: 1em;
 }
 #rent section div:nth-child(2){
-  margin: 0px;
+  margin-top: 0px;
+  font-weight: bolder;
 }
 div h2{
   text-align: center;

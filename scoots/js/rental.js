@@ -21,8 +21,8 @@ fetch(apiURL)
       let btn = document.createElement('button');
       
       let titulo = document.createElement('div');
-      let townInfo = document.createElement('div');
-      let townImage = document.createElement('div');
+      let rentinfo = document.createElement('div');
+      let rentimage = document.createElement('div');
       let boton = document.createElement('div');
 
       h2.textContent = town.type;
@@ -37,18 +37,18 @@ fetch(apiURL)
       btn.textContent = "Rent Now!";
 
       titulo.appendChild(h2);
-      townInfo.appendChild(p1);
-      townInfo.appendChild(p2);
-      townInfo.appendChild(p3);
-      townInfo.appendChild(p4);
-      townInfo.appendChild(p5);
-      townImage.appendChild(image);
-      townInfo.appendChild(btn);
+      rentinfo.appendChild(p1);
+      rentinfo.appendChild(p2);
+      rentinfo.appendChild(p3);
+      rentinfo.appendChild(p4);
+      rentinfo.appendChild(p5);
+      rentimage.appendChild(image);
+      rentimage.appendChild(btn);
       boton.appendChild(btn);
 
       card.appendChild(titulo);
-      card.appendChild(townInfo);
-      card.appendChild(townImage);
+      card.appendChild(rentinfo);
+      card.appendChild(rentimage);
       card.appendChild(boton);
 
       document.querySelector('div#rent').appendChild(card);
