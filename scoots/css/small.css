@@ -153,6 +153,11 @@ main h1{
   grid-column: 1/2;
   grid-row: 3/4;
 }
+#map2,#map1{
+  width: 50%;
+padding: 0;
+
+}
 
 
 /**********FOOTER*****************/
