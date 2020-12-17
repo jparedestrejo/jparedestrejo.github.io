@@ -10,7 +10,7 @@ const loadImages = (image) => {
 
 //optional parameters being set for the IntersectionalObserver
 const imgOptions = {
-    threshold:0.9
+    threshold:0.5
 };
 //see if IO is supported
 if("IntersectionObserver" in window){

@@ -22,15 +22,16 @@ fetch(apiURL)
       
       let titulo = document.createElement('div');
       let rentinfo = document.createElement('div');
-      let rentimage = document.createElement('div');
+      let rentimage = document.createElement('picture');
+      let descrip = document.createElement('div');
       let boton = document.createElement('div');
 
       h2.textContent = trent.type;
       p1.textContent = "Max. per: "+trent.maxper;
-      p2.textContent = "Reservation Half Day: "+trent.reservation[0];
-      p3.textContent = "Reservation Full Day: "+trent.reservation[1];
-      p4.textContent = "Walk-in Half Day: "+trent.walkin[0];
-      p5.textContent = "Walk-in Full Day: "+trent.walkin[1];
+      p2.textContent = "Reservation Half Day: $"+trent.reservation[0];
+      p3.textContent = "Reservation Full Day: $"+trent.reservation[1];
+      p4.textContent = "Walk-in Half Day: $"+trent.walkin[0];
+      p5.textContent = "Walk-in Full Day: $"+trent.walkin[1];
       p6.textContent = trent.description;
       image.setAttribute('data-src', 'images/rental/'+trent.url);
       image.setAttribute('src', 'https://via.placeholder.com/360x240');
@@ -44,12 +45,13 @@ fetch(apiURL)
       rentinfo.appendChild(p4);
       rentinfo.appendChild(p5);
       rentimage.appendChild(image);
-      rentimage.appendChild(btn);
+      descrip.appendChild(p6);
       boton.appendChild(btn);
 
       card.appendChild(titulo);
       card.appendChild(rentinfo);
       card.appendChild(rentimage);
+      card.appendChild(descrip);
       card.appendChild(boton);
 
       document.querySelector('div#rent').appendChild(card);
