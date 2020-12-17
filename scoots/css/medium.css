@@ -47,4 +47,8 @@ nav ul li{
     grid-gap: 0.5em;
     margin-top: 0.5em;
   }
+  /*************TOURS PAGE*****************/
+  #tours section{
+    width: 100%;
+  }
 }

@@ -117,6 +117,22 @@ font-size: 1em;
 #rent section img{
   width: 100%;
 }
+/**********TOURS PAGE*****************/
+
+#tours section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#tours section:nth-child(even){
+  flex-direction: column;
+}
+#tours section div img{
+ width: 100%;
+}
+main h1{
+  font-size: 1.4em;
+}
 
 /**********FOOTER*****************/
 footer{
