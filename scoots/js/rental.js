@@ -34,7 +34,7 @@ fetch(apiURL)
       p5.textContent = "Walk-in Full Day: $"+trent.walkin[1];
       p6.textContent = trent.description;
       image.setAttribute('data-src', 'images/rental/'+trent.url);
-      image.setAttribute('src', 'https://via.placeholder.com/360x240');
+      image.setAttribute('src', 'images/rental/'+trent.url);
       image.setAttribute('alt', trent.description);
       btn.textContent = "Rent Now!";
 
