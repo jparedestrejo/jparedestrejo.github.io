@@ -1,59 +1,76 @@
-[
+{
+    "typesrental": [
         {
             "type":"Honda metro",
+            "description":"Honda Metropolitan (49cc) - 1 person",
             "maxper":"1",
             "reservation":[
-                {"halfday":"20"},{"fullday":"30" }
+                "20","30" 
             ],
             "walkin":[
-                {"halfday":"25"},{"fullday":"35" }
-            ]
+                "25","35"
+            ],
+            "url":"hondametro.jpg"
         },
         {
             "type":"Honda dio", 
+            "description":"Honda Dio (110cc) - 2 person",
             "maxper":"2",
             "reservation":[
-                {"halfday":"30"},{"fullday":"40" }
+                "30","40"
             ],
             "walkin":[
-                {"halfday":"35"},{"fullday":"45" }
-            ]
+                "35","45"
+            ],
+            "url":"hondadio.jpg"
         },
         {
-            "type":"Honda pcx150", "maxper":"2",
+            "type":"Honda pcx150",
+            "description":"Honda PCX150 (149cc) - 2 person",
+            "maxper":"2",
             "reservation":[
-                {"halfday":"40"},{"fullday":"50" }
-            ],
-            "walkin":[
-                {"halfday":"45"},{"fullday":"55" }
-            ]
+                "40","50"
+             ],
+             "walkin":[
+                 "45","55"
+             ],
+             "url":"hondapcx150.jpg"
         },
         {
-            "type":"Honda pioner ATV", "maxper":"4",
+            "type":"Honda pioner ATV",
+            "description":"Honda Pioneer 1000",
+            "maxper":"4",
             "reservation":[
-                {"halfday":"50"},{"fullday":"70" }
+                "50","70"
             ],
             "walkin":[
-                {"halfday":"60"},{"fullday":"80" }
-            ]
+                "60","80"
+            ],
+            "url":"atvhonda.jpg"
         },
         {
-            "type":"Jeep Wrangler - 4 door", "maxper":"5",
+            "type":"Jeep Wrangler - 2 door",
+            "description":"2-door Jeep Wrangler - open air - manual - 4 people max",
+            "maxper":"4",
             "reservation":[
-                {"halfday":"70"},{"fullday":"100" }
+                "60","85"
             ],
             "walkin":[
-                {"halfday":"85"},{"fullday":"125" }
-            ]
+                "70","90"
+            ],
+            "url":"jeep2doors.jpg"
         },
         {
-            "type":"Jeep Wrangler - 2 door", "maxper":"4",
+            "type":"Jeep Wrangler - 4 door",
+            "description":"4-door Jeep Wrangler - manual with A/C - 5 people max",
+            "maxper":"5",
             "reservation":[
-                {"halfday":"60"},{"fullday":"85" }
+                "70","100"
             ],
             "walkin":[
-                {"halfday":"70"},{"fullday":"90" }
-            ]
+                "85","125"
+            ],
+            "url":"jeep4doors.jpg"
         }
-]
-    
+    ]
+}

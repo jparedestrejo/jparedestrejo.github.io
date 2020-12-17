@@ -4,10 +4,12 @@
 const apiURL="https://jparedestrejo.github.io/data/rental.json";
 fetch(apiURL)
   .then((response) => response.json())
-  
-  .then((jsObject) => {
+  .then((data) => {
     
-    console.log(jsObject)
-    console.log()
+    console.table(data)
+    const list = data['typesrental'];
+    console.table(list);
 });
 
+
+//        myTowns.forEach(town => {
