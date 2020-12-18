@@ -51,4 +51,9 @@ nav ul li{
   #tours section{
     width: 100%;
   }
+  /***************contact page*************/
+  #frm input[type=submit]{
+    margin-top: 1.2em;
+    width: 100%;
+  }
 }

@@ -139,6 +139,7 @@ main h1{
   grid-template-columns:  1fr;
  grid-gap: 0.3em;
 }
+
 #map1{
   grid-column: 1/2;
   grid-row: 1/2;
@@ -158,6 +159,32 @@ main h1{
 padding: 0;
 
 }
+/********CONTACT PAGE*****************/
+#contact{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,auto);
+
+}
+#frm{
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+}
+#map1{
+  grid-column: 1/2;
+  grid-row: 2/3;  
+
+  box-sizing: border-box;
+  width: 100%;
+}
+#map2{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 
 
 /**********FOOTER*****************/
@@ -165,7 +192,7 @@ footer{
     display: grid;
     grid-template-columns: none;
     grid-template-rows: repeat(3,1fr);
- 
+ margin-top: 2em;
 }
 #copyright, #lastupdated, #resources, #socialnets{
     text-align: center;
