@@ -34,26 +34,114 @@
     <main>
         <h1>Rental Agreement Information</h1>
        <div id="reserv">
-            <div id="contact">
+            <div id="contactreserv">
                 <h2>Information and Services</h2>
                 <ul>
                     <li>A $50 security deposit is required to confirm reservations.</li>
                     <li>A valid drivers license is required in hand at time of rental.</li>
-                    <li>A valid drivers license is required in hand at time of rental.
+                    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge not included.
+                    </li>
+                    <li>Unlimited mileage.
+                    </li>
+                    <li>Liability insurance is free of charge.
+                    </li>
+                    <li>Reservations rate requires 24 hour prior notification.
+                    </li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+                    </li>
+                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.
+                    </li>
+                    <li>Rentals may be returned to either location
                     </li>
                 </ul>
                 
-No one under 12 years of age are allowed to ride on the scooters.
-Fuel charge not included.
-Unlimited mileage.
-Liability insurance is free of charge.
-Reservations rate requires 24 hour prior notification.
-Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
-Payment via Google Pay, cash, credit card, debit card, or PayPal.
-Rentals may be returned to either location
-            </div>   
-            <div id="reserv-frm">
-
+           </div>   
+            <div id="reservfrm">
+                <h2>Make your reservation</h2>
+                <form action="thankyou.html">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top" for="fullname">Full Name:
+                            <input id="fullname" type="text" name="txtFullName" 
+                            required pattern="([a-zA-Z]{5,})[\sa-zA-Z]*">
+                        </label>
+                        <label class="top" for="email">Email:
+                            <input id="email" type="email" name="txtEmail" 
+                            required placeholder="example@mail.com">
+                        </label>
+                        <label class="top" for="phone">Phone Number: <span class="rqd">*</span>
+                            <input id="phone" type="tel" name="txtPhone" 
+                            required>
+                        </label>
+                        <label class="top" for="homeCountry">Home or Country:
+                            <select name="cboHomeCountry" id="homeCountry">
+                                <option disabled value="">--Please Select Home/Country--&#9662;</option>
+                                <option value="USA">USA</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Mexico">Mexico</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Rental Information</legend>
+                        <label class="top" for="rentaldate">Rental Date:
+                            <input id="rentaldate" type="date" name="txtRentalDate" 
+                            required> 
+                        </label>
+                        <label class="top" for="rentaltype">Rental Type:
+                            <input list="options" id="rentaltype" name="cboRentaltype" />
+                        
+                                <datalist id="options">
+                                    <option value="Honda Metropolitan">
+                                    <option value="Honda Dio">
+                                    <option value="Honda PCX1500">
+                                    <option value="ATV side-by-side">
+                                    <option value="Jeep wrangler 4 doors">
+                                    <option value="Jeep wrangler 2 doors"></option>
+                                </datalist>
+                        </label>
+                        <label class="top" for="rentalperiod">Rental Period:
+                        <input type="range" id="rentalperiod" name="txtRentalPeriod"
+                            min="0" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">1</span>
+                        
+                            <datalist id="tickmarks">
+                                <option value="0">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">
+                                <option value="9">
+                                <option value="10">
+                            </datalist>
+                        </label>
+                        <label class="top" for="number">Persons Number:
+                            <input id="number" type="text" name="txtNumberPersons" 
+                            required pattern="([0-9]">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Cruise line?</legend>                    
+                            <label class="cline" for="ryes"><input type="radio" id="ryes" name="rdyes" value="yes" checked> Yes</label>
+                           
+                            <label class="cline" for="rnot"><input type="radio" id="rnot" name="rdnot" value="no"> No</label>
+                    </fieldset>
+                    <label class="top" for="comments">Comments:<br>
+                        <textarea name="txtCom" id="comments" cols="30" rows="10" placeholder="Write your comments here"></textarea>  
+                    </label>    
+                    <input class="submitBtn" type="submit" value="Make Reservation">
+                </form>
+                <script>
+                    function adjustRating(rating) {
+                        document.getElementById("ratingvalue").innerHTML = rating+ " day(s)";
+                    }
+                  
+                </script>
             </div>
        </div>
     </main>
@@ -74,6 +162,15 @@ Rentals may be returned to either location
               families: ['Aclonica', 'Open Sans']
             }
           });
+          const btnRental =  document.getElementsByClassName("rentnow");
+for (let index = 0; index < btnRental.length; index++) {
+  btnRental[index].onclick=openReservation;
+  
+}
+
+function openReservation(){
+    this.location.href="reservations.html";
+}
         </script>
 
 </body>

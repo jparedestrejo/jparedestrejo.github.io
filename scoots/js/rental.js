@@ -60,4 +60,8 @@ fetch(apiURL)
     });
 
 });
+const btn=  document.getElementsByClassName("submitBtn")[0].onclick= openUrl;
+function openUrl(){
+    location.href="thankyou.html";
+}
 

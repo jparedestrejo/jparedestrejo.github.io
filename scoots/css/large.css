@@ -304,7 +304,7 @@ height: 90%;
   font-family: var(--paragraph-font);
 }
 
-label input{
+#frm label input{
   display: block;
   font-size: 1rem;
   border: solid 1px rgb(223, 15, 15);
@@ -335,6 +335,19 @@ textarea[name=txtcomments]{
   border-radius: 1em;
   font-size: 1em;
   margin-top: 1.5em;
+}
+/*************RESERVATION PAGE*************/
+#reserv{
+  display: flex;
+  padding: 1em 15em;
+  font-family: var(--paragraph-font);
+}
+.submitBtn{
+  display: block;
+  margin: auto;
+}
+#reservfrm #comments{
+  width: 100%;
 }
 /********FOOTER**************/
 footer{

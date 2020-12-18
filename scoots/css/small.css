@@ -184,8 +184,12 @@ padding: 0;
   box-sizing: border-box;
   width: 100%;
 }
-
-
+/***************RESERVATION PAGE**********/
+#reserv{
+  display: flex;
+ flex-direction: column;
+ padding: 0%;
+}
 
 /**********FOOTER*****************/
 footer{
