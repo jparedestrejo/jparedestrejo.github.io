@@ -256,7 +256,7 @@ padding: 1em;
  margin: 0.3em;
 }
 /**********CONTACT PAGE*****************/
-main h3{
+main h2{
   text-align: center;
   font-family: var(--paragraph-font);
  margin-top: 0px;
@@ -271,7 +271,7 @@ main h1{
  grid-gap: 1em;
  margin-bottom: 1.5em; 
 }
-#contact div h2{
+#contact div h3{
   text-align: center;
   margin-bottom: 0px; 
 }

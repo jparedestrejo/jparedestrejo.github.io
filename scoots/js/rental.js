@@ -37,6 +37,7 @@ fetch(apiURL)
       image.setAttribute('src', 'images/rental/'+trent.url);
       image.setAttribute('alt', trent.description);
       btn.textContent = "Rent Now!";
+      btn.setAttribute("class","rentnow");
 
       titulo.appendChild(h2);
       rentinfo.appendChild(p1);
@@ -57,5 +58,6 @@ fetch(apiURL)
       document.querySelector('div#rent').appendChild(card);
 
     });
-    
+
 });
+
