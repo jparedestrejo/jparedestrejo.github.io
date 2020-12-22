@@ -20,12 +20,15 @@ fetch(apiURL)
     let day=0;
     threedays.forEach(element => {
       const d = new Date(element.dt_txt);
-      document.getElementById(`dayname${day+1}`).textContent = dayweeknames[d.getDay()];
-      const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
-      document.querySelectorAll(".weather-forecast ul li img")[day].src=imagesrc;
-      document.querySelectorAll(".weather-forecast ul li img")[day].setAttribute("alt",element.weather[0].icon + '.png');
-      document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=Math.round(element.main.temp);
-      day++;
+      if(day<3){
+        document.getElementById(`dayname${day+1}`).textContent = dayweeknames[d.getDay()];
+        const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
+        document.querySelectorAll(".weather-forecast ul li img")[day].src=imagesrc;
+        document.querySelectorAll(".weather-forecast ul li img")[day].setAttribute("alt",element.weather[0].icon + '.png');
+        document.querySelectorAll(".weather-forecast ul li p span")[day].textContent=Math.round(element.main.temp);
+        day++;
+      }
+     
     });
   });
   

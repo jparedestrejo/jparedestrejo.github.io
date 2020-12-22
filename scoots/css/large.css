@@ -201,6 +201,10 @@ font-size: 1.5em;
 .types img{
   width: 100%;
 }
+.types p{
+  height: 5em; /**all paragraph have the same height*/
+  margin: 0;
+}
 /********RENTAL PAGE**************/
 main>h1{
   font-family: var(--heading-font);

@@ -86,19 +86,19 @@
                     <h2>Honda Scooters</h2>
                     <img src="images/scooters/hondamotor360x240.jpg" alt="Honda Motors Scooters">
                     <p>Honda Metropolitan (49cc) - 1 person. Honda Dio (110cc) - 2 person. Honda PCX150 (149cc) - 2 person</p>
-                    <button>more..</button>
+                    <button class="goRental">more..</button>
                 </div>
                 <div class="types">
                     <h2>ATV side-by-side</h2>
                     <img src="images/scooters/atv360x240.jpg" alt="Honda Motors Scooters">
                     <p>Honda Pioneer 1000</p>
-                    <button>more..</button>
+                    <button class="goRental">more..</button>
                 </div>
                 <div class="types">
                     <h2>Jeep Rentals</h2>
                     <img src="images/scooters/jeep2doors360x240.jpg" alt="Honda Motors Scooters">
                     <p>4-door Jeep wrangler - manual with A/C - 5 people max. 2-door Jeep wrangler - open air - manual - 4 people max. </p>
-                    <button>more..</button>
+                    <button class="goRental">more..</button>
                 </div>
             </div>
         </section>
@@ -119,7 +119,18 @@
             google: {
               families: ['Aclonica', 'Open Sans']
             }
+           
           });
+          
+          var btnMore = document.getElementsByClassName("goRental");
+         btnMore.forEach(element => {
+             element.onclick=function(){
+                 location="rentals.html"
+             }
+         });
+             
+         
+           
         </script>
 </body>
 </html>
