@@ -62,34 +62,34 @@
                 <form action="thankyou.html">
                     <fieldset>
                         <legend>User Information</legend>
-                        <label class="top" for="fullname">Full Name:
+                        <label class="top" for="fullname">Full Name:</label>
                             <input id="fullname" type="text" name="txtFullName" 
                             required pattern="([a-zA-Z]{5,})[\sa-zA-Z]*">
-                        </label>
-                        <label class="top" for="email">Email:
+                        
+                        <label class="top" for="email">Email:</label>
                             <input id="email" type="email" name="txtEmail" 
                             required placeholder="example@mail.com">
-                        </label>
-                        <label class="top" for="phone">Phone Number: <span class="rqd">*</span>
+                        
+                        <label class="top" for="phone">Phone Number: <span class="rqd">*</span></label>
                             <input id="phone" type="tel" name="txtPhone" 
                             required>
-                        </label>
-                        <label class="top" for="homeCountry">Home or Country:
+                        
+                        <label class="top" for="homeCountry">Home or Country:</label>
                             <select name="cboHomeCountry" id="homeCountry">
                                 <option disabled value="">--Please Select Home/Country--&#9662;</option>
                                 <option value="USA">USA</option>
                                 <option value="Peru">Peru</option>
                                 <option value="Mexico">Mexico</option>
                             </select>
-                        </label>
+                    
                     </fieldset>
                     <fieldset>
                         <legend>Rental Information</legend>
-                        <label class="top" for="rentaldate">Rental Date:
+                        <label class="top" for="rentaldate">Rental Date:</label>
                             <input id="rentaldate" type="date" name="txtRentalDate" 
                             required> 
-                        </label>
-                        <label class="top" for="rentaltype">Rental Type:
+                        
+                        <label class="top" for="rentaltype">Rental Type:</label>
                             <input list="options" id="rentaltype" name="cboRentaltype" />
                         
                                 <datalist id="options">
@@ -100,8 +100,8 @@
                                     <option value="Jeep wrangler 4 doors">
                                     <option value="Jeep wrangler 2 doors"></option>
                                 </datalist>
-                        </label>
-                        <label class="top" for="rentalperiod">Rental Period:
+                        
+                        <label class="top" for="rentalperiod">Rental Period:</label>
                         <input type="range" id="rentalperiod" name="txtRentalPeriod"
                             min="0" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="ratingvalue">1</span>
@@ -119,11 +119,11 @@
                                 <option value="9">
                                 <option value="10">
                             </datalist>
-                        </label>
-                        <label class="top" for="number">Persons Number:
+                      
+                        <label class="top" for="number">Persons Number:</label>
                             <input id="number" type="text" name="txtNumberPersons" 
                             required pattern="([0-9]">
-                        </label>
+                       
                     </fieldset>
                     <fieldset>
                         <legend>Cruise line?</legend>                    
@@ -131,9 +131,9 @@
                            
                             <label class="cline" for="rnot"><input type="radio" id="rnot" name="rdnot" value="no"> No</label>
                     </fieldset>
-                    <label class="top" for="comments">Comments:<br>
+                    <label class="top" for="comments">Comments:</label>
                         <textarea name="txtCom" id="comments" cols="30" rows="10" placeholder="Write your comments here"></textarea>  
-                    </label>    
+                        
                     <input class="submitBtn" type="submit" value="Make Reservation">
                 </form>
                 <script>
