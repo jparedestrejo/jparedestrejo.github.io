@@ -190,6 +190,11 @@ padding: 0;
  flex-direction: column;
  padding: 0%;
 }
+#contactreserv,#reservfrm{
+  width: 100%;
+font-size: 0.8em;
+padding: 0%;
+}
 
 /**********FOOTER*****************/
 footer{
