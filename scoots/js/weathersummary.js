@@ -14,9 +14,9 @@ fetch(apiURL)
     document.getElementById('temp').textContent = Math.round(tempmax);
     document.getElementById('humid').textContent = humi+"%";
     document.getElementById('speed').textContent = Math.round(winsp)+" mph";
-    console.log(jsObject);
+    //console.log(jsObject);
     const threedays = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
-    console.log(threedays);
+    //console.log(threedays);
     let day=0;
     threedays.forEach(element => {
       const d = new Date(element.dt_txt);

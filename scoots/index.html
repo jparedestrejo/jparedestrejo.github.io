@@ -123,11 +123,12 @@
           });
           
           var btnMore = document.getElementsByClassName("goRental");
-         btnMore.forEach(element => {
-             element.onclick=function(){
-                 location="rentals.html"
+         for (let index = 0; index < btnMore.length; index++) {
+             btnMore[index].onclick = function(){
+                 location="rentals.html";
              }
-         });
+             
+         }
              
          
            

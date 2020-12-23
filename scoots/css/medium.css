@@ -47,6 +47,15 @@ nav ul li{
     grid-gap: 0.5em;
     margin-top: 0.5em;
   }
+  /*************RESERVATION PAGE*************/
+  #reserv{
+    padding: 1em;
+  }
+  #contactreserv{
+    width: 150%;
+    margin-right: 3em;
+  }
+
   /*************TOURS PAGE*****************/
   #tours section{
     width: 100%;

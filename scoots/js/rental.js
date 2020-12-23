@@ -38,6 +38,7 @@ fetch(apiURL)
       image.setAttribute('alt', trent.description);
       btn.textContent = "Rent Now!";
       btn.setAttribute("class","rentnow");
+      btn.setAttribute("onclick","javascript:location='reservations.html'");
 
       titulo.appendChild(h2);
       rentinfo.appendChild(p1);
@@ -60,8 +61,5 @@ fetch(apiURL)
     });
 
 });
-const btn=  document.getElementsByClassName("submitBtn")[0].onclick= openUrl;
-function openUrl(){
-    location.href="thankyou.html";
-}
+
 
