@@ -235,6 +235,9 @@ main>h1{
 #rent section div p{
   margin: 0.2em;
 }
+#rent section div:nth-child(4){
+  height: 2em;
+}
 
 div button{
   display: block;

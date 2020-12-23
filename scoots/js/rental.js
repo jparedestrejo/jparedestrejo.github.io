@@ -17,7 +17,7 @@ fetch(apiURL)
       let p4 = document.createElement('p');
       let p5 = document.createElement('p');
       let image = document.createElement('img');
-      let p6 = document.createElement('p6');
+      let p6 = document.createElement('p');
       let btn = document.createElement('button');
       
       let titulo = document.createElement('div');
