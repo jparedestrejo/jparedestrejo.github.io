@@ -343,8 +343,22 @@ textarea[name=txtcomments]{
 /*************RESERVATION PAGE*************/
 #reserv{
   display: flex;
-  padding: 1em 15em;
+  padding: 1em;
   font-family: var(--paragraph-font);
+  width: 80%;
+  justify-content: center;
+  align-content: center;
+}
+
+#contactreserv{
+  width: 150%;
+  margin-right: 3em;
+  border: 1px red solid;
+  border-radius: 15px;
+}
+#reservfrm{
+  background: rgb(98, 243, 70);
+  border-radius: 15px;
 }
 .submitBtn{
   display: block;

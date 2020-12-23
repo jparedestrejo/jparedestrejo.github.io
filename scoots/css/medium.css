@@ -48,13 +48,8 @@ nav ul li{
     margin-top: 0.5em;
   }
   /*************RESERVATION PAGE*************/
-  #reserv{
-    padding: 1em;
-  }
-  #contactreserv{
-    width: 150%;
-    margin-right: 3em;
-  }
+
+
 
   /*************TOURS PAGE*****************/
   #tours section{
